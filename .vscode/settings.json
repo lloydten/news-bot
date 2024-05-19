@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/lloyd/myProjects/news-bot/."
+    ],
+    "python.terminal.activateEnvironment": false
+}

@@ -1,0 +1,48 @@
+2024-05-20 01:20:37,556 - RPA.core.certificates - INFO - Truststore injection done, using system certificate store to validate HTTPS.
+INFO:RPA.core.webdriver:Downloaded webdriver to: /home/lloyd/.robocorp/webdrivers/.wdm/drivers/chromedriver/linux64/116.0.5845.96/chromedriver-linux64/chromedriver
+INFO:RPA.Browser.Selenium:Webdriver version taken into use: ChromeDriver 116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382})
+
+INFO:RobotFramework:Creating an instance of the Chrome WebDriver.
+INFO:RPA.Browser.Selenium:Created Chrome browser (version 116.0.5845) with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+INFO:RobotFramework:<p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+INFO:RobotFramework:Opening url 'https://www.timeslive.co.za/'
+Button 'Do not consent' not found or other error occurred: Element '//*[contains(text(), 'Do not consent')]' not visible after 10 seconds.
+ERROR:src.news_bot:Button 'Do not consent' not found or other error occurred: Element '//*[contains(text(), 'Do not consent')]' not visible after 10 seconds.
+INFO:RobotFramework:</td></tr><tr><td colspan="3"><a href="output/screenshot.png"><img src="output/screenshot.png" width="800px"></a>
+INFO:RobotFramework:Clicking element '//a[@id='register-popup-modal-close']'.
+Closed the popup successfully.
+INFO:src.news_bot:Closed the popup successfully.
+INFO:RobotFramework:Clicking element 'id:nav-search'.
+INFO:RobotFramework:Typing text 'valentine' into text field '//input[@placeholder='Search TimesLIVE']'.
+Performed a search for 'valentine' successfully.
+INFO:src.news_bot:Performed a search for 'valentine' successfully.
+INFO:RPA.core.webdriver:Downloaded webdriver to: /home/lloyd/.robocorp/webdrivers/.wdm/drivers/chromedriver/linux64/116.0.5845.96/chromedriver-linux64/chromedriver
+INFO:RPA.Browser.Selenium:Webdriver version taken into use: ChromeDriver 116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382})
+
+INFO:RobotFramework:Creating an instance of the Chrome WebDriver.
+INFO:RPA.Browser.Selenium:Created Chrome browser (version 116.0.5845) with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+INFO:RobotFramework:<p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+INFO:RobotFramework:Opening url 'https://lh3.googleusercontent.com/6NZiEKv71VGv5FZjQfup6ZKGtQOkaTVkP0mv4zniYVDe6LckHZxMVNRdFq411-il7ie9HvBWQNXPCWBi0X-C8kY5GB8BrIV77SE=s400'
+INFO:root:Image downloaded successfully: output/6NZiEKv71VGv5FZjQfup6ZKGtQOkaTVkP0mv4zniYVDe6LckHZxMVNRdFq411-il7ie9HvBWQNXPCWBi0X-C8kY5GB8BrIV77SE=s400.png
+INFO:RPA.core.webdriver:Downloaded webdriver to: /home/lloyd/.robocorp/webdrivers/.wdm/drivers/chromedriver/linux64/116.0.5845.96/chromedriver-linux64/chromedriver
+INFO:RPA.Browser.Selenium:Webdriver version taken into use: ChromeDriver 116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382})
+
+INFO:RobotFramework:Creating an instance of the Chrome WebDriver.
+INFO:RPA.Browser.Selenium:Created Chrome browser (version 116.0.5845) with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+INFO:RobotFramework:<p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+INFO:RobotFramework:Opening url 'https://lh3.googleusercontent.com/J2gmw7wcIBJNWOuC6YpHZ1Z2CoKPpjUkPgqQhetUkEgHP6DaSIvN_Gp9XagwpEF-13EL8-0h_7-2GiuQQPM7bRjwut9xQ4apjJw=s400'
+INFO:root:Image downloaded successfully: output/J2gmw7wcIBJNWOuC6YpHZ1Z2CoKPpjUkPgqQhetUkEgHP6DaSIvN_Gp9XagwpEF-13EL8-0h_7-2GiuQQPM7bRjwut9xQ4apjJw=s400.png
+INFO:RPA.core.webdriver:Downloaded webdriver to: /home/lloyd/.robocorp/webdrivers/.wdm/drivers/chromedriver/linux64/116.0.5845.96/chromedriver-linux64/chromedriver
+INFO:RPA.Browser.Selenium:Webdriver version taken into use: ChromeDriver 116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382})
+
+INFO:RobotFramework:Creating an instance of the Chrome WebDriver.
+INFO:RPA.Browser.Selenium:Created Chrome browser (version 116.0.5845) with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox
+INFO:RobotFramework:<p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>
+INFO:RobotFramework:Opening url 'https://lh3.googleusercontent.com/RRjt2KFzG4sn084OxKOm9HZLQn5hR0qiJi1Aht_SZuTQan5mVRTV0NoDSrFICt7ptNHppk7NM2_mKpHOgMgO4bGdf7y5j7l5LIg5=s400'
+INFO:root:Image downloaded successfully: output/RRjt2KFzG4sn084OxKOm9HZLQn5hR0qiJi1Aht_SZuTQan5mVRTV0NoDSrFICt7ptNHppk7NM2_mKpHOgMgO4bGdf7y5j7l5LIg5=s400.png
+INFO:root:Data saved to Excel successfully at output/news_data_2024-05-20_01-22-32.xlsx
+INFO:robocorp.workitems._adapters._file:Releasing item '0' with COMPLETED state and exception: None
