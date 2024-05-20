@@ -206,6 +206,8 @@ class NewsBot:
                     target_date = current_time - timedelta(weeks=number)
                 elif unit.startswith('month'):
                     target_date = current_time - timedelta(days=30 * number)
+                elif unit.startswith('year'):
+                    target_date = current_time - timedelta(days=365 * number)
                 return (current_time - target_date).days <= months_back * 30
             return False
         except Exception as e:

@@ -1,49 +1,49 @@
 V 0.0.4
-T 2024-05-19T23:20:30.997+00:00
-ID 1|62985f86-1636-11ef-8bee-040cce1b5126
+T 2024-05-20T00:05:50.764+00:00
+ID 1|b7b3d9c2-163c-11ef-b552-040cce1b5126
 I "sys.platform=linux"
 I "python=3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:40:32) [GCC 12.3.0]"
 M a:"tasks.py"
-SR a|0.022
+SR a|0.004
 M c:"Collect tasks"
 M d:"setup"
 M e:""
 P b:c|d|e|e|0
-ST b|0.023
+ST b|0.004
 M f:"regular"
 M g:"\nCollecting tasks from: tasks.py\n"
-C f|g|0.027
+C f|g|0.005
 M h:"stderr"
-M i:"2024-05-20 01:20:37,556 - RPA.core.certificates - INFO - Truststore injection done, using system certificate store to validate HTTPS.\n"
-C h|i|6.559
+M i:"2024-05-20 02:05:54,508 - RPA.core.certificates - INFO - Truststore injection done, using system certificate store to validate HTTPS.\n"
+C h|i|3.745
 M j:"PASS"
-ET j|e|12.89
+ET j|e|7.792
 M l:"minimal_task"
 M m:"tasks"
 M n:"/home/lloyd/myProjects/news-bot/tasks.py"
 M o:null
 P k:l|m|n|o|10
-ST k|12.89
+ST k|7.792
 M p:"============================ "
-C f|p|12.891
+C f|p|7.793
 M q:"Running: "
-C f|q|12.891
+C f|q|7.793
 M r:"task_name"
-C r|l|12.891
+C r|l|7.793
 M s:" =============================\n"
-C f|s|12.892
+C f|s|7.794
 M t:"METHOD"
-SE k|t|12.892
+SE k|t|7.795
 M v:"NewsBot.__init__"
 M w:"src.news_bot"
 M x:"/home/lloyd/myProjects/news-bot/src/news_bot.py"
-P u:v|w|x|e|14
-SE u|t|12.893
+P u:v|w|x|e|15
+SE u|t|7.795
 M z:"Selenium.__init__"
 M A:"RPA.Browser.Selenium"
 M B:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/RPA/Browser/Selenium.py"
 P y:z|A|B|e|241
-SE y|t|12.893
+SE y|t|7.795
 M C:"args"
 M D:"tuple"
 M E:"()"
@@ -52,66 +52,66 @@ M F:"kwargs"
 M G:"dict"
 M H:"{}"
 EA F|G|H
-EE t|j|12.978
-EE t|j|12.979
+EE t|j|7.875
+EE t|j|7.876
 P I:l|m|n|e|11
 M J:"bot"
 M K:"NewsBot"
-M L:"<src.news_bot.NewsBot object at 0x7097a7cd4d00>"
-AS I|J|K|L|12.979
+M L:"<src.news_bot.NewsBot object at 0x7cb0169d3f70>"
+AS I|J|K|L|7.876
 M N:"for item in workitems.inputs"
 P M:N|m|n|e|14
 M O:"FOR"
-SE M|O|12.979
+SE M|O|7.876
 M Q:"Step: for item in workitems.inputs"
 P P:Q|m|n|e|14
 M R:"FOR_STEP"
-SE P|R|12.98
+SE P|R|7.877
 M S:"item"
 M T:"Input"
-M U:"Input[id=0,payload={\"search_phrase\": \"valentine\" ... : 1, \"news_category\": \"news\"},files=[],state=None,saved=True]"
+M U:"Input[id=0,payload={\"search_phrase\": \"valentine  ... : 1, \"news_category\": \"news\"},files=[],state=None,saved=True]"
 EA S|T|U
 M W:"WorkItem.payload"
 M X:"robocorp.workitems._workitem"
 M Y:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/workitems/_workitem.py"
 P V:W|X|Y|e|53
-SE V|t|12.98
+SE V|t|7.877
 P Z:W|X|Y|e|55
-M 0:"{'search_phrase': 'valentine', 'num_months': 1, 'news_category': 'news'}"
-R Z|G|0|12.981
-EE t|j|12.981
+M 0:"{'search_phrase': 'valentine gifts', 'num_months': 1, 'news_category': 'news'}"
+R Z|G|0|7.878
+EE t|j|7.878
 P 1:l|m|n|e|15
 M 2:"search_phrase"
 M 3:"str"
-M 4:"'valentine'"
-AS 1|2|3|4|12.981
-SE V|t|12.981
-R Z|G|0|12.981
-EE t|j|12.981
+M 4:"'valentine gifts'"
+AS 1|2|3|4|7.878
+SE V|t|7.878
+R Z|G|0|7.878
+EE t|j|7.878
 P 5:l|m|n|e|16
 M 6:"num_months"
 M 7:"int"
 M 8:"1"
-AS 5|6|7|8|12.981
-SE V|t|12.982
-R Z|G|0|12.982
-EE t|j|12.982
+AS 5|6|7|8|7.879
+SE V|t|7.879
+R Z|G|0|7.879
+EE t|j|7.879
 P 9:l|m|n|e|17
 M aa:"news_category"
 M ab:"'news'"
-AS 9|aa|3|ab|12.982
+AS 9|aa|3|ab|7.879
 M ad:"NewsBot.search_news"
-P ac:ad|w|x|e|61
-SE ac|t|12.983
+P ac:ad|w|x|e|24
+SE ac|t|7.879
 EA 2|3|4
-P ae:ad|w|x|e|70
+P ae:ad|w|x|e|33
 M af:"browser"
 M ag:"Selenium"
-M ah:"<RPA.Browser.Selenium.Selenium object at 0x7097a7e8d660>"
-AS ae|af|ag|ah|12.983
+M ah:"<RPA.Browser.Selenium.Selenium object at 0x7cb0169d15d0>"
+AS ae|af|ag|ah|7.88
 M aj:"Selenium.open_chrome_browser"
 P ai:aj|A|B|e|1043
-SE ai|t|12.983
+SE ai|t|7.88
 M ak:"url"
 M al:"'https://www.timeslive.co.za/'"
 EA ak|3|al
@@ -139,32 +139,32 @@ EA ay|at|au
 M az:"user_agent"
 EA az|at|au
 M aA:"INFO:RPA.core.webdriver:Downloaded webdriver to: /home/lloyd/.robocorp/webdrivers/.wdm/drivers/chromedriver/linux64/116.0.5845.96/chromedriver-linux64/chromedriver\n"
-C h|aA|14.571
+C h|aA|8.088
 M aB:"INFO:RPA.Browser.Selenium:Webdriver version taken into use: ChromeDriver 116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382})\n\n"
-C h|aB|14.691
+C h|aB|8.094
 M aC:"INFO:RobotFramework:Creating an instance of the Chrome WebDriver.\n"
-C h|aC|14.692
+C h|aC|8.094
 M aD:"INFO:RPA.Browser.Selenium:Created Chrome browser (version 116.0.5845) with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox\n"
-C h|aD|34.923
+C h|aD|9.162
 M aE:"INFO:RobotFramework:<p>Attempted combinations:</p><div class=\"doc\"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td>Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)\n</td></tr><tr><td>Chrome</td><td>True</td><td></td></tr></table></div>\n"
-C h|aE|34.924
+C h|aE|9.162
 M aF:"INFO:RobotFramework:Opening url 'https://www.timeslive.co.za/'\n"
-C h|aF|34.924
+C h|aF|9.163
 P aG:aj|A|B|e|1060
-R aG|7|8|47.544
-EE t|j|47.544
+R aG|7|8|19.479
+EE t|j|19.48
 M aI:"NewsBot.click_do_not_consent_button"
-P aH:aI|w|x|e|47
-SE aH|t|47.544
-P aJ:aI|w|x|e|49
+P aH:aI|w|x|e|125
+SE aH|t|19.48
+P aJ:aI|w|x|e|127
 M aK:"consent_button_xpath"
 M aL:"\"//*[contains(text(), 'Do not consent')]\""
-AS aJ|aK|3|aL|47.545
+AS aJ|aK|3|aL|19.48
 M aN:"WaitingKeywords.wait_until_element_is_visible"
 M aO:"SeleniumLibrary.keywords.waiting"
 M aP:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/SeleniumLibrary/keywords/waiting.py"
 P aM:aN|aO|aP|e|299
-SE aM|t|47.546
+SE aM|t|19.481
 M aQ:"locator"
 EA aQ|3|aL
 M aR:"timeout"
@@ -173,7 +173,7 @@ EA aR|7|aS
 M aT:"error"
 EA aT|at|au
 M aU:"AssertionError: Element '//*[contains(text(), 'Do not consent')]' not visible after 10 seconds."
-STB aU|57.573
+STB aU|29.617
 M aV:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_task.py"
 M aW:"run"
 M aX:"return self.method(*args, **kwargs)"
@@ -197,13 +197,13 @@ TBV 6|7|8
 TBV aa|3|ab
 M a5:"search_news"
 M a6:"self.click_do_not_consent_button()"
-TBE x|74|a5|a6
+TBE x|37|a5|a6
 TBV aY|K|L
 TBV 2|3|4
 TBV af|ag|ah
 M a7:"click_do_not_consent_button"
 M a8:"self.browser.wait_until_element_is_visible(consent_button_xpath, timeout=10)"
-TBE x|51|a7|a8
+TBE x|129|a7|a8
 TBV aY|K|L
 TBV aK|3|aL
 M a9:"wait_until_element_is_visible"
@@ -213,7 +213,7 @@ TBV aR|7|aS
 TBV aT|at|au
 TBV aQ|3|aL
 M bb:"WaitingKeywords"
-M bc:"<SeleniumLibrary.keywords.waiting.WaitingKeywords object at 0x7097a7e8ce20>"
+M bc:"<SeleniumLibrary.keywords.waiting.WaitingKeywords object at 0x7cb0169d1060>"
 TBV aY|bb|bc
 M bd:"_wait_until"
 M be:"self._wait_until_worker(condition, timeout, error)"
@@ -221,7 +221,7 @@ TBE aP|426|bd|be
 TBV aY|bb|bc
 M bf:"condition"
 M bg:"function"
-M bh:"<function WaitingKeywords.wait_until_element_is_visible.<locals>.<lambda> at 0x7097a730aa70>"
+M bh:"<function WaitingKeywords.wait_until_element_is_visible.<locals>.<lambda> at 0x7cb01610aa70>"
 TBV bf|bg|bh
 M bi:"\"Element '//*[contains(text(), 'Do not consent')]' not visible after 10 seconds.\""
 TBV aT|3|bi
@@ -238,77 +238,77 @@ TBV bf|bg|bh
 TBV aR|bj|bk
 TBV aT|3|bi
 M bo:"max_time"
-M bp:"1716160888.544959"
+M bp:"1716163580.2456615"
 TBV bo|bj|bp
 M bq:"not_found"
 TBV bq|at|au
-ETB 57.615
+ETB 29.623
 M br:"ERROR"
-EE t|br|57.618
+EE t|br|29.626
 M bs:"Button 'Do not consent' not found or other error occurred: Element '//*[contains(text(), 'Do not consent')]' not visible after 10 seconds.\n"
-C h|bs|57.618
+C h|bs|29.626
 M bt:"ERROR:src.news_bot:Button 'Do not consent' not found or other error occurred: Element '//*[contains(text(), 'Do not consent')]' not visible after 10 seconds.\n"
-C h|bt|57.619
+C h|bt|29.628
 M bv:"ScreenshotKeywords.capture_page_screenshot"
 M bw:"SeleniumLibrary.keywords.screenshot"
 M bx:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/SeleniumLibrary/keywords/screenshot.py"
 P bu:bv|bw|bx|e|67
-SE bu|t|57.62
+SE bu|t|29.628
 M by:"filename"
 M bz:"'output/screenshot.png'"
 EA by|3|bz
 M bA:"INFO:RobotFramework:</td></tr><tr><td colspan=\"3\"><a href=\"output/screenshot.png\"><img src=\"output/screenshot.png\" width=\"800px\"></a>\n"
-C h|bA|58.104
+C h|bA|30.012
 P bB:bv|bw|bx|e|113
 M bC:"'/home/lloyd/myProjects/news-bot/output/screenshot.png'"
-R bB|3|bC|58.104
-EE t|j|58.105
-P bD:aI|w|x|e|58
+R bB|3|bC|30.012
+EE t|j|30.013
+P bD:aI|w|x|e|136
 M bE:"screenshot_path"
-AS bD|bE|3|bC|58.105
-EE t|j|58.106
+AS bD|bE|3|bC|30.013
+EE t|j|30.013
 M bG:"NewsBot.close_popup"
-P bF:bG|w|x|e|23
-SE bF|t|58.106
-P bH:bG|w|x|e|31
+P bF:bG|w|x|e|139
+SE bF|t|30.013
+P bH:bG|w|x|e|147
 M bI:"popup_locator"
 M bJ:"\"//div[@id='register-popup']\""
-AS bH|bI|3|bJ|58.106
-P bK:bG|w|x|e|32
+AS bH|bI|3|bJ|30.013
+P bK:bG|w|x|e|148
 M bL:"close_button_locator"
 M bM:"\"//a[@id='register-popup-modal-close']\""
-AS bK|bL|3|bM|58.107
-SE aM|t|58.107
+AS bK|bL|3|bM|30.014
+SE aM|t|30.014
 EA aQ|3|bJ
 M bN:"100"
 EA aR|7|bN
 EA aT|at|au
-EE t|j|58.163
+EE t|j|30.052
 M bP:"ElementKeywords.click_element"
 M bQ:"SeleniumLibrary.keywords.element"
 M bR:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/SeleniumLibrary/keywords/element.py"
 P bO:bP|bQ|bR|e|648
-SE bO|t|58.164
+SE bO|t|30.052
 EA aQ|3|bM
 M bS:"modifier"
 EA bS|an|ao
 M bT:"action_chain"
 EA bT|an|ao
 M bU:"INFO:RobotFramework:Clicking element '//a[@id='register-popup-modal-close']'.\n"
-C h|bU|58.164
-EE t|j|58.317
+C h|bU|30.053
+EE t|j|30.177
 M bV:"Closed the popup successfully.\n"
-C h|bV|58.318
+C h|bV|30.177
 M bW:"INFO:src.news_bot:Closed the popup successfully.\n"
-C h|bW|58.318
-EE t|j|58.32
-P bX:ad|w|x|e|77
+C h|bW|30.177
+EE t|j|30.177
+P bX:ad|w|x|e|40
 M bY:"search_icon_button"
 M bZ:"'id:nav-search'"
-AS bX|bY|3|bZ|58.32
+AS bX|bY|3|bZ|30.178
 M b1:"WaitingKeywords.wait_until_page_contains_element"
 P b0:b1|aO|aP|e|223
-SE b0|t|58.321
+SE b0|t|30.178
 EA aQ|3|bZ
 M b2:"20"
 EA aR|7|b2
@@ -316,97 +316,97 @@ EA aT|at|au
 M b3:"limit"
 EA b3|at|au
 P b4:b1|aO|aP|e|247
-R b4|at|au|58.345
-EE t|j|58.345
-SE aM|t|58.346
+R b4|at|au|30.197
+EE t|j|30.198
+SE aM|t|30.198
 EA aQ|3|bZ
 EA aR|7|b2
 EA aT|at|au
-EE t|j|58.381
-SE bO|t|58.381
+EE t|j|30.229
+SE bO|t|30.229
 EA aQ|3|bZ
 EA bS|an|ao
 EA bT|an|ao
 M b5:"INFO:RobotFramework:Clicking element 'id:nav-search'.\n"
-C h|b5|58.382
-EE t|j|58.562
-P b6:ad|w|x|e|83
+C h|b5|30.229
+EE t|j|30.316
+P b6:ad|w|x|e|46
 M b7:"search_input"
 M b8:"\"//input[@placeholder='Search TimesLIVE']\""
-AS b6|b7|3|b8|58.562
-SE aM|t|58.562
+AS b6|b7|3|b8|30.316
+SE aM|t|30.316
 EA aQ|3|b8
 EA aR|7|b2
 EA aT|at|au
-EE t|j|58.63
+EE t|j|30.346
 M ca:"FormElementKeywords.input_text"
 M cb:"SeleniumLibrary.keywords.formelement"
 M cc:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/SeleniumLibrary/keywords/formelement.py"
 P b9:ca|cb|cc|e|272
-SE b9|t|58.63
+SE b9|t|30.346
 EA aQ|3|b8
 M cd:"text"
 EA cd|3|4
 M ce:"clear"
 M cf:"True"
 EA ce|an|cf
-M cg:"INFO:RobotFramework:Typing text 'valentine' into text field '//input[@placeholder='Search TimesLIVE']'.\n"
-C h|cg|58.631
-EE t|j|58.871
-M ch:"Performed a search for 'valentine' successfully.\n"
-C h|ch|58.872
-M ci:"INFO:src.news_bot:Performed a search for 'valentine' successfully.\n"
-C h|ci|58.872
-EE t|j|58.872
+M cg:"INFO:RobotFramework:Typing text 'valentine gifts' into text field '//input[@placeholder='Search TimesLIVE']'.\n"
+C h|cg|30.347
+EE t|j|30.496
+M ch:"Performed a search for 'valentine gifts' successfully.\n"
+C h|ch|30.496
+M ci:"INFO:src.news_bot:Performed a search for 'valentine gifts' successfully.\n"
+C h|ci|30.496
+EE t|j|30.496
 M ck:"NewsBot.extract_news_data"
-P cj:ck|w|x|e|92
-SE cj|t|58.873
+P cj:ck|w|x|e|55
+SE cj|t|30.497
 EA 2|3|4
 M cl:"months_back"
 EA cl|7|8
 EA aa|3|ab
-SE aM|t|58.873
+SE aM|t|30.497
 M cm:"\"//div[@class='result-set']\""
 EA aQ|3|cm
 EA aR|7|b2
 EA aT|at|au
-EE t|j|60.224
-P cn:ck|w|x|e|109
+EE t|j|32.073
+P cn:ck|w|x|e|72
 M co:"news_data"
 M cp:"list"
 M cq:"[]"
-AS cn|co|cp|cq|60.225
+AS cn|co|cp|cq|32.073
 M cs:"SeleniumLibrary.find_elements"
 M ct:"SeleniumLibrary"
 M cu:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/SeleniumLibrary/__init__.py"
 P cr:cs|ct|cu|e|614
-SE cr|t|60.225
+SE cr|t|32.074
 M cv:"\"//div[@class='result-set']/a[@class='result']\""
 EA aQ|3|cv
 M cw:"parent"
 EA cw|at|au
 P cx:cs|ct|cu|e|628
-M cy:"[<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_63\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_64\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_65\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_66\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_67\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_68\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_69\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_70\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_71\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_72\")>]"
-R cx|cp|cy|60.251
-EE t|j|60.251
-P cz:ck|w|x|e|110
+M cy:"[<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_56\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_57\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_58\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_59\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_60\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_61\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_62\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_63\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_64\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_65\")>]"
+R cx|cp|cy|32.099
+EE t|j|32.1
+P cz:ck|w|x|e|73
 M cA:"results"
-AS cz|cA|cp|cy|60.252
+AS cz|cA|cp|cy|32.1
 M cC:"for result in results"
-P cB:cC|w|x|e|112
-SE cB|O|60.252
+P cB:cC|w|x|e|75
+SE cB|O|32.1
 M cE:"Step: for result in results"
-P cD:cE|w|x|e|112
-SE cD|R|60.252
+P cD:cE|w|x|e|75
+SE cD|R|32.1
 M cF:"result"
 M cG:"WebElement"
-M cH:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_63\")>"
+M cH:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_56\")>"
 EA cF|cG|cH
 M cJ:"WebElement.find_element"
 M cK:"selenium.webdriver.remote.webelement"
 M cL:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py"
 P cI:cJ|cK|cL|e|396
-SE cI|t|60.253
+SE cI|t|32.101
 M cM:"by"
 M cN:"'xpath'"
 EA cM|3|cN
@@ -414,1399 +414,915 @@ M cO:"value"
 M cP:"'.//h2'"
 EA cO|3|cP
 P cQ:cJ|cK|cL|e|416
-M cR:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_73\")>"
-R cQ|cG|cR|60.275
-EE t|j|60.275
-P cS:ck|w|x|e|114
+M cR:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_66\")>"
+R cQ|cG|cR|32.118
+EE t|j|32.119
+P cS:ck|w|x|e|77
 M cT:"title_element"
-AS cS|cT|cG|cR|60.276
+AS cS|cT|cG|cR|32.119
 M cV:"WebElement.text"
 P cU:cV|cK|cL|e|87
-SE cU|t|60.276
+SE cU|t|32.119
 P cW:cV|cK|cL|e|89
-M cX:"\"PANAMA'S PRESIDENT-ELECT VOWS TO HELP FIX CANAL WATER PROBLEMS, BUILD MAJOR TRAIN LINE\""
-R cW|3|cX|60.306
-EE t|j|60.307
-P cY:ck|w|x|e|115
+M cX:"\"LOVE IN A TIME OF INFLATION: HOW MUCH WILL VALENTINE'S DAY SET YOU BACK?\""
+R cW|3|cX|32.139
+EE t|j|32.139
+P cY:ck|w|x|e|78
 M cZ:"title"
-AS cY|cZ|3|cX|60.307
+AS cY|cZ|3|cX|32.139
 M c1:"WebElement.get_attribute"
 P c0:c1|cK|cL|e|150
-SE c0|t|60.307
+SE c0|t|32.139
 M c2:"name"
 M c3:"'href'"
 EA c2|3|c3
 P c4:c1|cK|cL|e|180
-M c5:"'https://www.timeslive.co.za/news/world/2024-05-09-panamas-president-elect-vows-to-help-fix-canal-water-problems-build-major-train-line/'"
-R c4|3|c5|60.329
-EE t|j|60.329
-P c6:ck|w|x|e|117
-AS c6|ak|3|c5|60.33
-SE cI|t|60.33
+M c5:"'https://www.timeslive.co.za/news/world/2023-02-13-love-in-a-time-of-inflation-how-much-will-valentines-day-set-you-back/'"
+R c4|3|c5|32.159
+EE t|j|32.159
+P c6:ck|w|x|e|80
+AS c6|ak|3|c5|32.16
+SE cI|t|32.16
 EA cM|3|cN
 M c7:"'.//p'"
 EA cO|3|c7
-M c8:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_78\")>"
-R cQ|cG|c8|60.347
-EE t|j|60.348
-P c9:ck|w|x|e|119
+M c8:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_67\")>"
+R cQ|cG|c8|32.176
+EE t|j|32.176
+P c9:ck|w|x|e|82
 M da:"description_element"
-AS c9|da|cG|c8|60.348
-SE cU|t|60.348
-M db:"\"Panama's president-elect, Jose Raul Mulino, said on Wednesday he will urge lawmakers to approve a law enabling the Panama Canal to build large water reservoirs in the face of an unprecedented drought that has hit the capacity of the vital waterway.\""
-R cW|3|db|60.362
-EE t|j|60.362
-P dc:ck|w|x|e|120
+AS c9|da|cG|c8|32.177
+SE cU|t|32.177
+M db:"\"This Valentine's Day is set to look different after a year of record food inflation that has sent up prices of everything from flowers to chocolates and dining in restaurants.\""
+R cW|3|db|32.191
+EE t|j|32.191
+P dc:ck|w|x|e|83
 M dd:"description"
-AS dc|dd|3|db|60.362
-SE cI|t|60.362
+AS dc|dd|3|db|32.191
+SE cI|t|32.191
 EA cM|3|cN
 M de:"\".//div[@class='date-stamp']\""
 EA cO|3|de
-M df:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_79\")>"
-R cQ|cG|df|60.381
-EE t|j|60.381
-P dg:ck|w|x|e|122
+M df:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_68\")>"
+R cQ|cG|df|32.211
+EE t|j|32.211
+P dg:ck|w|x|e|85
 M dh:"date_element"
-AS dg|dh|cG|df|60.381
-SE cU|t|60.381
-M di:"'2 weeks ago'"
-R cW|3|di|60.395
-EE t|j|60.395
-P dj:ck|w|x|e|123
+AS dg|dh|cG|df|32.211
+SE cU|t|32.212
+M di:"'1 year ago'"
+R cW|3|di|32.224
+EE t|j|32.225
+P dj:ck|w|x|e|86
 M dk:"date"
-AS dj|dk|3|di|60.395
-P dl:ck|w|x|e|125
+AS dj|dk|3|di|32.225
+P dl:ck|w|x|e|88
 M dm:"current_time"
 M dn:"datetime"
-M do:"datetime.datetime(2024, 5, 20, 1, 21, 31, 393178)"
-AS dl|dm|dn|do|60.396
-P dp:ck|w|x|e|126
+M do:"datetime.datetime(2024, 5, 20, 2, 6, 22, 989250)"
+AS dl|dm|dn|do|32.225
+P dp:ck|w|x|e|89
 M dq:"target_date"
-M dr:"datetime.datetime(2024, 4, 20, 1, 21, 31, 393178)"
-AS dp|dq|dn|dr|60.396
+M dr:"datetime.datetime(2024, 4, 20, 2, 6, 22, 989250)"
+AS dp|dq|dn|dr|32.226
 M dt:"NewsBot.days_from_now"
-P ds:dt|w|x|e|186
-SE ds|t|60.396
+P ds:dt|w|x|e|185
+SE ds|t|32.226
 M du:"date_str"
 EA du|3|di
 EA dm|dn|do
 EA cl|7|8
-P dv:dt|w|x|e|199
+P dv:dt|w|x|e|198
 M dw:"match"
 M dx:"Match"
-M dy:"<re.Match object; span=(0, 11), match='2 weeks ago'>"
-AS dv|dw|dx|dy|60.397
+M dy:"<re.Match object; span=(0, 10), match='1 year ago'>"
+AS dv|dw|dx|dy|32.227
 M dA:"if match"
-P dz:dA|w|x|e|200
+P dz:dA|w|x|e|199
 M dB:"IF_SCOPE"
-SE dz|dB|60.397
+SE dz|dB|32.228
 EA dw|dx|dy
-M dD:"elif unit.startswith('week')"
-P dC:dD|w|x|e|206
-SE dC|dB|60.398
-P dE:dt|w|x|e|207
-M dF:"datetime.datetime(2024, 5, 6, 1, 21, 31, 393178)"
-AS dE|dq|dn|dF|60.398
-EE dB|j|60.398
-P dG:dt|w|x|e|210
-R dG|an|cf|60.398
-EE dB|j|60.399
-EE t|j|60.399
-M dI:"if self.days_from_now(date, current_time, months_back)"
-P dH:dI|w|x|e|128
-SE dH|dB|60.399
-EA dk|3|di
-EA dm|dn|do
-EA cl|7|8
-M dK:"WebElement.find_elements"
-P dJ:dK|cK|cL|e|418
-SE dJ|t|60.399
-EA cM|3|cN
-M dL:"\".//div[@class='section']//span[@rel]\""
-EA cO|3|dL
-P dM:dK|cK|cL|e|438
-M dN:"[<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_80\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_81\")>]"
-R dM|cp|dN|60.417
-EE t|j|60.417
-P dO:ck|w|x|e|129
-M dP:"category_elements"
-AS dO|dP|cp|dN|60.417
-M dR:"NewsBot.category_matches"
-P dQ:dR|w|x|e|162
-SE dQ|t|60.417
-EA dP|cp|dN
-EA aa|3|ab
-P dS:dR|w|x|e|174
-M dT:"categories"
-AS dS|dT|cp|cq|60.418
-M dV:"for category_element in category_elements"
-P dU:dV|w|x|e|175
-SE dU|O|60.418
-M dX:"Step: for category_element in category_elements"
-P dW:dX|w|x|e|175
-SE dW|R|60.418
-M dY:"category_element"
-M dZ:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_80\")>"
-EA dY|cG|dZ
-SE c0|t|60.419
-M d0:"'rel'"
-EA c2|3|d0
-R c4|3|ab|60.437
-EE t|j|60.438
-P d1:dR|w|x|e|176
-M d2:"category"
-AS d1|d2|3|ab|60.438
-EE R|j|60.438
-SE dW|R|60.438
-M d3:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_81\")>"
-EA dY|cG|d3
-SE c0|t|60.438
-EA c2|3|d0
-M d4:"'world'"
-R c4|3|d4|60.453
-EE t|j|60.453
-AS d1|d2|3|d4|60.453
-EE R|j|60.453
-EE O|j|60.453
-M d6:"if news_category.strip().lower() in categories"
-P d5:d6|w|x|e|178
-SE d5|dB|60.454
-M d7:"['news', 'world']"
-EA dT|cp|d7
-P d8:dR|w|x|e|179
-R d8|an|cf|60.454
-EE dB|j|60.454
-EE t|j|60.454
-M ea:"if self.category_matches(category_elements, news_category)"
-P d9:ea|w|x|e|130
-SE d9|dB|60.454
-EA dP|cp|dN
-EA aa|3|ab
-SE cI|t|60.455
-EA cM|3|cN
-M eb:"\".//span[@class='image']\""
-EA cO|3|eb
-M ec:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_82\")>"
-R cQ|cG|ec|60.474
-EE t|j|60.474
-P ed:ck|w|x|e|131
-M ee:"image_element"
-AS ed|ee|cG|ec|60.474
-SE c0|t|60.475
-M ef:"'style'"
-EA c2|3|ef
-M eg:"'background-image: url(\"//lh3.googleusercontent.com/6NZiEKv71VGv5FZjQfup6ZKGtQOkaTVkP0mv4zniYVDe6LckHZxMVNRdFq411-il7ie9HvBWQNXPCWBi0X-C8kY5GB8BrIV77SE=s400\"); background-position: 50% 50%; background-size: cover;'"
-R c4|3|eg|60.49
-EE t|j|60.49
-P eh:ck|w|x|e|132
-M ei:"style_attribute"
-AS eh|ei|3|eg|60.49
-M ek:"NewsBot.extract_image_url_from_style"
-P ej:ek|w|x|e|217
-SE ej|t|60.49
-EA ei|3|eg
-M em:"if style_attribute"
-P el:em|w|x|e|228
-SE el|dB|60.491
-EA ei|3|eg
-P en:ek|w|x|e|229
-M eo:"matches"
-M ep:"<re.Match object; span=(18, 157), match='url(\"//lh3.googleusercontent.com/6NZiEKv71VGv5FZj>"
-AS en|eo|dx|ep|60.492
-M er:"if matches"
-P eq:er|w|x|e|230
-SE eq|dB|60.492
-EA eo|dx|ep
-P es:ek|w|x|e|231
-M et:"'//lh3.googleusercontent.com/6NZiEKv71VGv5FZjQfup6ZKGtQOkaTVkP0mv4zniYVDe6LckHZxMVNRdFq411-il7ie9HvBWQNXPCWBi0X-C8kY5GB8BrIV77SE=s400'"
-R es|3|et|60.492
-EE dB|j|60.493
-EE dB|j|60.493
-EE t|j|60.493
-P eu:ck|w|x|e|133
-M ev:"image_url"
-AS eu|ev|3|et|60.493
-P ew:ck|w|x|e|135
-M ex:"file_name"
-M ey:"'6NZiEKv71VGv5FZjQfup6ZKGtQOkaTVkP0mv4zniYVDe6LckHZxMVNRdFq411-il7ie9HvBWQNXPCWBi0X-C8kY5GB8BrIV77SE=s400'"
-AS ew|ex|3|ey|60.493
-P ez:ck|w|x|e|136
-M eA:"path_name"
-M eB:"'output/6NZiEKv71VGv5FZjQfup6ZKGtQOkaTVkP0mv4zniYVDe6LckHZxMVNRdFq411-il7ie9HvBWQNXPCWBi0X-C8kY5GB8BrIV77SE=s400.png'"
-AS ez|eA|3|eB|60.493
-M eD:"download_image"
-M eE:"src.utils"
-M eF:"/home/lloyd/myProjects/news-bot/src/utils.py"
-P eC:eD|eE|eF|e|10
-SE eC|t|60.494
-EA ev|3|et
-M eG:"save_path"
-EA eG|3|eB
-SE y|t|60.494
-EA C|D|E
-EA F|G|H
-EE t|j|60.583
-P eH:eD|eE|eF|e|23
-M eI:"<RPA.Browser.Selenium.Selenium object at 0x7097a8057160>"
-AS eH|af|ag|eI|60.584
-M eK:"wrapper"
-M eL:"RPA.Browser.common"
-M eM:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/RPA/Browser/common.py"
-P eJ:eK|eL|eM|e|33
-SE eJ|t|60.584
-M eN:"(<RPA.Browser.Selenium.Selenium object at 0x7097a8057160>, '//lh3.googleusercontent.com/6NZiEKv71VGv5FZjQfup6ZKGtQOkaTVkP0mv4zniYVDe6LckHZxMVNRdFq411-il7ie9HvBWQNXPCWBi0X-C8kY5GB8BrIV77SE=s400')"
-EA C|D|eN
-EA F|G|H
-C h|aA|60.779
-C h|aB|60.784
-C h|aC|60.785
-C h|aD|74.679
-C h|aE|74.68
-M eO:"INFO:RobotFramework:Opening url 'https://lh3.googleusercontent.com/6NZiEKv71VGv5FZjQfup6ZKGtQOkaTVkP0mv4zniYVDe6LckHZxMVNRdFq411-il7ie9HvBWQNXPCWBi0X-C8kY5GB8BrIV77SE=s400'\n"
-C h|eO|74.68
-P eP:eK|eL|eM|e|36
-R eP|7|8|89.587
-EE t|j|89.587
-M eR:"BrowserManagementKeywords.get_source"
-M eS:"SeleniumLibrary.keywords.browsermanagement"
-M eT:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/SeleniumLibrary/keywords/browsermanagement.py"
-P eQ:eR|eS|eT|e|476
-SE eQ|t|89.587
-P eU:eR|eS|eT|e|478
-M eV:"'<html style=\"height: 100%;\"><head><meta name=\"viewport\" content=\"width=device-width, minimum-scale=0.1\"><title>6NZiEKv71VGv5FZjQfup6ZKGtQOkaTVkP0mv4zniYVDe6LckHZxMVNRdFq411-il7ie9HvBWQNXPCWBi0X-C8kY5GB8BrIV77SE=s400 (400\u00d7266)</title></head><body style=\"margin: 0px; height: 100%; background-color: rgb(14, 14, 14);\"><img style=\"display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;\" src=\"https://lh3.googleusercontent.com/6NZiEKv71VGv5FZjQfup6ZKGtQOkaTVkP0mv4zniYVDe6LckHZxMVNRdFq411-il7ie9HvBWQNXPCWBi0X-C8kY5GB8BrIV77SE=s400\"></body></html>'"
-R eU|3|eV|89.606
-EE t|j|89.606
-P eW:eD|eE|eF|e|26
-M eX:"image_content"
-AS eW|eX|3|eV|89.606
-M eY:"INFO:root:Image downloaded successfully: output/6NZiEKv71VGv5FZjQfup6ZKGtQOkaTVkP0mv4zniYVDe6LckHZxMVNRdFq411-il7ie9HvBWQNXPCWBi0X-C8kY5GB8BrIV77SE=s400.png\n"
-C h|eY|89.607
-P eZ:eD|eE|eF|e|32
-R eZ|an|cf|89.607
-EE t|j|89.607
-M e1:"NewsBot.contains_money_mention"
-P e0:e1|w|x|e|238
-SE e0|t|89.608
-EA cZ|3|cX
-EA dd|3|db
-P e2:e1|w|x|e|250
-M e3:"money_pattern"
-M e4:"'\\\\$[\\\\d,.]+|\\\\d+\\\\s*(?:dollars|USD)\\\\b|R[\\\\d,.]+|\\\\d+\\\\s*rands\\\\b'"
-AS e2|e3|3|e4|89.608
-P e5:e1|w|x|e|252
-M e6:"title_contains_money"
-AS e5|e6|an|ao|89.609
-P e7:e1|w|x|e|254
-M e8:"description_contains_money"
-AS e7|e8|an|ao|89.61
-P e9:e1|w|x|e|256
-R e9|an|ao|89.61
-EE t|j|89.61
-P fa:ck|w|x|e|140
-M fb:"contains_money"
-AS fa|fb|an|ao|89.61
-M fd:"NewsBot.count_search_phrase_occurrences"
-P fc:fd|w|x|e|262
-SE fc|t|89.611
-EA 2|3|4
-EA cZ|3|cX
-EA dd|3|db
-P fe:fd|w|x|e|275
-M ff:"search_phrase_lower"
-AS fe|ff|3|4|89.611
-P fg:fd|w|x|e|276
-M fh:"title_lower"
-M fi:"\"panama's president-elect vows to help fix canal water problems, build major train line\""
-AS fg|fh|3|fi|89.612
-P fj:fd|w|x|e|277
-M fk:"description_lower"
-M fl:"\"panama's president-elect, jose raul mulino, said on wednesday he will urge lawmakers to approve a law enabling the panama canal to build large water reservoirs in the face of an unprecedented drought that has hit the capacity of the vital waterway.\""
-AS fj|fk|3|fl|89.612
-P fm:fd|w|x|e|279
-M fn:"title_occurrences"
-M fo:"0"
-AS fm|fn|7|fo|89.613
-P fp:fd|w|x|e|280
-M fq:"description_occurrences"
-AS fp|fq|7|fo|89.613
-P fr:fd|w|x|e|282
-M fs:"total_occurrences"
-AS fr|fs|7|fo|89.613
-P ft:fd|w|x|e|283
-R ft|7|fo|89.614
-EE t|j|89.614
-P fu:ck|w|x|e|141
-M fv:"search_phrase_occurrences"
-AS fu|fv|7|fo|89.614
-EE dB|j|89.614
-EE dB|j|89.614
-EE R|j|89.615
-SE cD|R|89.615
-M fw:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_64\")>"
-EA cF|cG|fw
-SE cI|t|89.615
+M dD:"elif unit.startswith('year')"
+P dC:dD|w|x|e|209
+SE dC|dB|32.229
+P dE:dt|w|x|e|210
+M dF:"datetime.datetime(2023, 5, 21, 2, 6, 22, 989250)"
+AS dE|dq|dn|dF|32.229
+EE dB|j|32.23
+P dG:dt|w|x|e|211
+R dG|an|ao|32.231
+EE dB|j|32.231
+EE t|j|32.231
+EE R|j|32.231
+SE cD|R|32.231
+M dH:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_57\")>"
+EA cF|cG|dH
+SE cI|t|32.232
 EA cM|3|cN
 EA cO|3|cP
-M fx:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_92\")>"
-R cQ|cG|fx|89.629
-EE t|j|89.629
-AS cS|cT|cG|fx|89.629
-SE cU|t|89.629
-M fy:"'ALCOHOL-FREE FINE DINING BECOMING MORE OF A (SOUTH AFRICAN) THING AND THE CHEFS ARE READY FOR IT'"
-R cW|3|fy|89.642
-EE t|j|89.642
-AS cY|cZ|3|fy|89.643
-SE c0|t|89.643
+M dI:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_69\")>"
+R cQ|cG|dI|32.243
+EE t|j|32.243
+AS cS|cT|cG|dI|32.244
+SE cU|t|32.244
+M dJ:"\"\u2018PLEASE DON\u2019T EXPECT ANYTHING OVER HERE\u2019 \u2014 LERATO KGANYAGO SAYS SHE'S 'SITTING OUT' VALENTINE\u2019S DAY OLYMPICS\""
+R cW|3|dJ|32.258
+EE t|j|32.258
+AS cY|cZ|3|dJ|32.258
+SE c0|t|32.258
 EA c2|3|c3
-M fz:"'https://www.timeslive.co.za/sunday-times-daily/news/2024-04-29-alcohol-free-fine-dining-becoming-more-of-a-south-african-thing-and-the-chefs-are-ready-for-it/'"
-R c4|3|fz|89.655
-EE t|j|89.655
-AS c6|ak|3|fz|89.655
-SE cI|t|89.655
+M dK:"'https://www.timeslive.co.za/tshisa-live/tshisa-live/2023-02-06-please-dont-expect-anything-over-here--lerato-kganyago-says-shes-sitting-out-valentines-day-olympics/'"
+R c4|3|dK|32.281
+EE t|j|32.281
+AS c6|ak|3|dK|32.281
+SE cI|t|32.282
 EA cM|3|cN
 EA cO|3|c7
-M fA:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_93\")>"
-R cQ|cG|fA|89.666
-EE t|j|89.666
-AS c9|da|cG|fA|89.666
-SE cU|t|89.666
-M fB:"'Many people are making the conscious decision to move away from alcohol for health reasons but still want to enjoy interesting beverages - and restaurants are up for it'"
-R cW|3|fB|91.398
-EE t|j|91.398
-AS dc|dd|3|fB|91.398
-SE cI|t|91.398
+M dL:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_70\")>"
+R cQ|cG|dL|32.291
+EE t|j|32.291
+AS c9|da|cG|dL|32.291
+SE cU|t|32.291
+M dM:"'\"Re busy ra bereka\"'"
+R cW|3|dM|32.305
+EE t|j|32.305
+AS dc|dd|3|dM|32.305
+SE cI|t|32.305
 EA cM|3|cN
 EA cO|3|de
-M fC:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_94\")>"
-R cQ|cG|fC|91.414
-EE t|j|91.414
-AS dg|dh|cG|fC|91.414
-SE cU|t|91.414
-M fD:"'3 weeks ago'"
-R cW|3|fD|92.521
-EE t|j|93.522
-AS dj|dk|3|fD|93.522
-M fE:"datetime.datetime(2024, 5, 20, 1, 22, 4, 520084)"
-AS dl|dm|dn|fE|93.523
-M fF:"datetime.datetime(2024, 4, 20, 1, 22, 4, 520084)"
-AS dp|dq|dn|fF|93.523
-SE ds|t|93.523
-EA du|3|fD
-EA dm|dn|fE
+M dN:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_71\")>"
+R cQ|cG|dN|32.318
+EE t|j|32.318
+AS dg|dh|cG|dN|32.318
+SE cU|t|32.318
+R cW|3|di|32.332
+EE t|j|32.332
+AS dj|dk|3|di|32.332
+M dO:"datetime.datetime(2024, 5, 20, 2, 6, 23, 96462)"
+AS dl|dm|dn|dO|32.332
+M dP:"datetime.datetime(2024, 4, 20, 2, 6, 23, 96462)"
+AS dp|dq|dn|dP|32.333
+SE ds|t|32.333
+EA du|3|di
+EA dm|dn|dO
 EA cl|7|8
-M fG:"<re.Match object; span=(0, 11), match='3 weeks ago'>"
-AS dv|dw|dx|fG|93.523
-SE dz|dB|93.524
-EA dw|dx|fG
-SE dC|dB|93.524
-M fH:"datetime.datetime(2024, 4, 29, 1, 22, 4, 520084)"
-AS dE|dq|dn|fH|93.524
-EE dB|j|93.524
-R dG|an|cf|93.524
-EE dB|j|93.524
-EE t|j|93.524
-SE dH|dB|93.525
-EA dk|3|fD
-EA dm|dn|fE
-EA cl|7|8
-SE dJ|t|93.525
-EA cM|3|cN
-EA cO|3|dL
-M fI:"[<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_95\")>]"
-R dM|cp|fI|93.542
-EE t|j|93.544
-AS dO|dP|cp|fI|93.545
-SE dQ|t|93.545
-EA dP|cp|fI
-EA aa|3|ab
-AS dS|dT|cp|cq|93.545
-SE dU|O|93.545
-SE dW|R|93.545
-M fJ:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_95\")>"
-EA dY|cG|fJ
-SE c0|t|93.546
-EA c2|3|d0
-R c4|3|ab|93.56
-EE t|j|93.56
-AS d1|d2|3|ab|93.56
-EE R|j|93.56
-EE O|j|93.56
-SE d5|dB|93.56
-M fK:"['news']"
-EA dT|cp|fK
-R d8|an|cf|93.561
-EE dB|j|93.561
-EE t|j|93.561
-SE d9|dB|93.561
-EA dP|cp|fI
-EA aa|3|ab
-SE cI|t|93.562
-EA cM|3|cN
-EA cO|3|eb
-M fL:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_96\")>"
-R cQ|cG|fL|93.574
-EE t|j|93.574
-AS ed|ee|cG|fL|93.574
-SE c0|t|93.575
-EA c2|3|ef
-M fM:"'background-image: url(\"//lh3.googleusercontent.com/J2gmw7wcIBJNWOuC6YpHZ1Z2CoKPpjUkPgqQhetUkEgHP6DaSIvN_Gp9XagwpEF-13EL8-0h_7-2GiuQQPM7bRjwut9xQ4apjJw=s400\"); background-position: 50% 50%; background-size: cover;'"
-R c4|3|fM|93.587
-EE t|j|93.587
-AS eh|ei|3|fM|93.587
-SE ej|t|93.587
-EA ei|3|fM
-SE el|dB|93.587
-EA ei|3|fM
-M fN:"<re.Match object; span=(18, 157), match='url(\"//lh3.googleusercontent.com/J2gmw7wcIBJNWOuC>"
-AS en|eo|dx|fN|93.588
-SE eq|dB|93.588
-EA eo|dx|fN
-M fO:"'//lh3.googleusercontent.com/J2gmw7wcIBJNWOuC6YpHZ1Z2CoKPpjUkPgqQhetUkEgHP6DaSIvN_Gp9XagwpEF-13EL8-0h_7-2GiuQQPM7bRjwut9xQ4apjJw=s400'"
-R es|3|fO|93.588
-EE dB|j|93.589
-EE dB|j|93.589
-EE t|j|93.589
-AS eu|ev|3|fO|93.589
-M fP:"'J2gmw7wcIBJNWOuC6YpHZ1Z2CoKPpjUkPgqQhetUkEgHP6DaSIvN_Gp9XagwpEF-13EL8-0h_7-2GiuQQPM7bRjwut9xQ4apjJw=s400'"
-AS ew|ex|3|fP|93.589
-M fQ:"'output/J2gmw7wcIBJNWOuC6YpHZ1Z2CoKPpjUkPgqQhetUkEgHP6DaSIvN_Gp9XagwpEF-13EL8-0h_7-2GiuQQPM7bRjwut9xQ4apjJw=s400.png'"
-AS ez|eA|3|fQ|93.59
-SE eC|t|93.59
-EA ev|3|fO
-EA eG|3|fQ
-SE y|t|93.591
-EA C|D|E
-EA F|G|H
-EE t|j|93.668
-M fR:"<RPA.Browser.Selenium.Selenium object at 0x7097a8057c40>"
-AS eH|af|ag|fR|93.668
-SE eJ|t|93.668
-M fS:"(<RPA.Browser.Selenium.Selenium object at 0x7097a8057c40>, '//lh3.googleusercontent.com/J2gmw7wcIBJNWOuC6YpHZ1Z2CoKPpjUkPgqQhetUkEgHP6DaSIvN_Gp9XagwpEF-13EL8-0h_7-2GiuQQPM7bRjwut9xQ4apjJw=s400')"
-EA C|D|fS
-EA F|G|H
-C h|aA|94.438
-C h|aB|94.443
-C h|aC|94.443
-C h|aD|110.763
-C h|aE|110.764
-M fT:"INFO:RobotFramework:Opening url 'https://lh3.googleusercontent.com/J2gmw7wcIBJNWOuC6YpHZ1Z2CoKPpjUkPgqQhetUkEgHP6DaSIvN_Gp9XagwpEF-13EL8-0h_7-2GiuQQPM7bRjwut9xQ4apjJw=s400'\n"
-C h|fT|110.765
-R eP|7|8|114.102
-EE t|j|114.102
-SE eQ|t|114.102
-M fU:"'<html style=\"height: 100%;\"><head><meta name=\"viewport\" content=\"width=device-width, minimum-scale=0.1\"><title>J2gmw7wcIBJNWOuC6YpHZ1Z2CoKPpjUkPgqQhetUkEgHP6DaSIvN_Gp9XagwpEF-13EL8-0h_7-2GiuQQPM7bRjwut9xQ4apjJw=s400 (400\u00d7238)</title></head><body style=\"margin: 0px; height: 100%; background-color: rgb(14, 14, 14);\"><img style=\"display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;\" src=\"https://lh3.googleusercontent.com/J2gmw7wcIBJNWOuC6YpHZ1Z2CoKPpjUkPgqQhetUkEgHP6DaSIvN_Gp9XagwpEF-13EL8-0h_7-2GiuQQPM7bRjwut9xQ4apjJw=s400\"></body></html>'"
-R eU|3|fU|114.185
-EE t|j|114.185
-AS eW|eX|3|fU|114.185
-M fV:"INFO:root:Image downloaded successfully: output/J2gmw7wcIBJNWOuC6YpHZ1Z2CoKPpjUkPgqQhetUkEgHP6DaSIvN_Gp9XagwpEF-13EL8-0h_7-2GiuQQPM7bRjwut9xQ4apjJw=s400.png\n"
-C h|fV|114.186
-R eZ|an|cf|114.186
-EE t|j|114.186
-SE e0|t|114.187
-EA cZ|3|fy
-EA dd|3|fB
-AS e2|e3|3|e4|114.187
-AS e5|e6|an|ao|114.187
-AS e7|e8|an|ao|114.187
-R e9|an|ao|114.187
-EE t|j|114.188
-AS fa|fb|an|ao|114.188
-SE fc|t|114.188
-EA 2|3|4
-EA cZ|3|fy
-EA dd|3|fB
-AS fe|ff|3|4|114.189
-M fW:"'alcohol-free fine dining becoming more of a (south african) thing and the chefs are ready for it'"
-AS fg|fh|3|fW|114.189
-M fX:"'many people are making the conscious decision to move away from alcohol for health reasons but still want to enjoy interesting beverages - and restaurants are up for it'"
-AS fj|fk|3|fX|114.189
-AS fm|fn|7|fo|114.19
-AS fp|fq|7|fo|114.19
-AS fr|fs|7|fo|114.191
-R ft|7|fo|114.192
-EE t|j|114.192
-AS fu|fv|7|fo|114.192
-EE dB|j|114.192
-EE dB|j|114.192
-EE R|j|114.193
-SE cD|R|114.193
-M fY:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_65\")>"
-EA cF|cG|fY
-SE cI|t|114.194
+AS dv|dw|dx|dy|32.333
+SE dz|dB|32.333
+EA dw|dx|dy
+SE dC|dB|32.333
+M dQ:"datetime.datetime(2023, 5, 21, 2, 6, 23, 96462)"
+AS dE|dq|dn|dQ|32.334
+EE dB|j|32.334
+R dG|an|ao|32.334
+EE dB|j|32.334
+EE t|j|32.334
+EE R|j|32.334
+SE cD|R|32.334
+M dR:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_58\")>"
+EA cF|cG|dR
+SE cI|t|32.334
 EA cM|3|cN
 EA cO|3|cP
-M fZ:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_97\")>"
-R cQ|cG|fZ|114.214
-EE t|j|114.214
-AS cS|cT|cG|fZ|114.214
-SE cU|t|114.215
-M f0:"\"HAITI TRANSITIONAL GOVERNMENT TAKES POWER AS GANGS HOLD CAPITAL 'HOSTAGE'\""
-R cW|3|f0|114.231
-EE t|j|114.231
-AS cY|cZ|3|f0|114.231
-SE c0|t|114.231
+M dS:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_72\")>"
+R cQ|cG|dS|32.344
+EE t|j|32.345
+AS cS|cT|cG|dS|32.345
+SE cU|t|32.345
+M dT:"'THE MAGIC IS IN LEAVING YOUR COMFORT ZONE: ACTRESS NATASHA SUTHERLAND'"
+R cW|3|dT|32.356
+EE t|j|32.356
+AS cY|cZ|3|dT|32.356
+SE c0|t|32.356
 EA c2|3|c3
-M f1:"'https://www.timeslive.co.za/news/world/2024-04-26-haiti-transitional-government-takes-power-as-gangs-hold-capital-hostage/'"
-R c4|3|f1|114.257
-EE t|j|114.257
-AS c6|ak|3|f1|114.257
-SE cI|t|114.258
+M dU:"'https://www.timeslive.co.za/sunday-times/lifestyle/travel/2022-06-21-the-magic-is-in-leaving-your-comfort-zone-actress-natasha-sutherland/'"
+R c4|3|dU|32.37
+EE t|j|32.37
+AS c6|ak|3|dU|32.37
+SE cI|t|32.37
 EA cM|3|cN
 EA cO|3|c7
-M f2:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_105\")>"
-R cQ|cG|f2|114.353
-EE t|j|114.354
-AS c9|da|cG|f2|114.354
-SE cU|t|114.354
-M f3:"\"Haiti's transition council took power in a ceremony on Thursday, formalising the resignation of former Prime Minster Ariel Henry as the Caribbean country seeks to establish security after years of gang violence wreaking chaos and misery.\""
-R cW|3|f3|114.389
-EE t|j|114.389
-AS dc|dd|3|f3|114.389
-SE cI|t|114.389
+M dV:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_73\")>"
+R cQ|cG|dV|32.385
+EE t|j|32.385
+AS c9|da|cG|dV|32.385
+SE cU|t|32.385
+M dW:"\"'Shirley Valentine' star Sutherland can relate to her famous stage character, with her own tales of how transformative travel can be \u2014 solo and with her kids.\""
+R cW|3|dW|32.399
+EE t|j|32.399
+AS dc|dd|3|dW|32.399
+SE cI|t|32.399
 EA cM|3|cN
 EA cO|3|de
-M f4:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_106\")>"
-R cQ|cG|f4|114.417
-EE t|j|114.417
-AS dg|dh|cG|f4|114.417
-SE cU|t|114.417
-R cW|3|fD|114.428
-EE t|j|114.428
-AS dj|dk|3|fD|114.429
-M f5:"datetime.datetime(2024, 5, 20, 1, 22, 25, 426208)"
-AS dl|dm|dn|f5|114.429
-M f6:"datetime.datetime(2024, 4, 20, 1, 22, 25, 426208)"
-AS dp|dq|dn|f6|114.429
-SE ds|t|114.429
-EA du|3|fD
-EA dm|dn|f5
+M dX:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_74\")>"
+R cQ|cG|dX|32.408
+EE t|j|32.408
+AS dg|dh|cG|dX|32.408
+SE cU|t|32.408
+M dY:"'2 years ago'"
+R cW|3|dY|32.423
+EE t|j|32.423
+AS dj|dk|3|dY|32.423
+M dZ:"datetime.datetime(2024, 5, 20, 2, 6, 23, 187190)"
+AS dl|dm|dn|dZ|32.423
+M d0:"datetime.datetime(2024, 4, 20, 2, 6, 23, 187190)"
+AS dp|dq|dn|d0|32.423
+SE ds|t|32.423
+EA du|3|dY
+EA dm|dn|dZ
 EA cl|7|8
-AS dv|dw|dx|fG|114.429
-SE dz|dB|114.43
-EA dw|dx|fG
-SE dC|dB|114.43
-M f7:"datetime.datetime(2024, 4, 29, 1, 22, 25, 426208)"
-AS dE|dq|dn|f7|114.43
-EE dB|j|114.43
-R dG|an|cf|114.43
-EE dB|j|114.43
-EE t|j|114.43
-SE dH|dB|114.43
-EA dk|3|fD
-EA dm|dn|f5
-EA cl|7|8
-SE dJ|t|114.431
-EA cM|3|cN
-EA cO|3|dL
-M f8:"[<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_107\")>, <selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_108\")>]"
-R dM|cp|f8|114.444
-EE t|j|114.444
-AS dO|dP|cp|f8|114.444
-SE dQ|t|114.444
-EA dP|cp|f8
-EA aa|3|ab
-AS dS|dT|cp|cq|114.444
-SE dU|O|114.444
-SE dW|R|114.445
-M f9:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_107\")>"
-EA dY|cG|f9
-SE c0|t|114.445
-EA c2|3|d0
-R c4|3|ab|114.456
-EE t|j|114.456
-AS d1|d2|3|ab|114.457
-EE R|j|114.457
-SE dW|R|114.457
-M ga:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_108\")>"
-EA dY|cG|ga
-SE c0|t|114.457
-EA c2|3|d0
-R c4|3|d4|114.472
-EE t|j|114.473
-AS d1|d2|3|d4|114.473
-EE R|j|114.473
-EE O|j|114.473
-SE d5|dB|114.473
-EA dT|cp|d7
-R d8|an|cf|114.473
-EE dB|j|114.473
-EE t|j|114.474
-SE d9|dB|114.474
-EA dP|cp|f8
-EA aa|3|ab
-SE cI|t|114.474
-EA cM|3|cN
-EA cO|3|eb
-M gb:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_110\")>"
-R cQ|cG|gb|114.487
-EE t|j|114.487
-AS ed|ee|cG|gb|114.487
-SE c0|t|114.488
-EA c2|3|ef
-M gc:"'background-image: url(\"//lh3.googleusercontent.com/RRjt2KFzG4sn084OxKOm9HZLQn5hR0qiJi1Aht_SZuTQan5mVRTV0NoDSrFICt7ptNHppk7NM2_mKpHOgMgO4bGdf7y5j7l5LIg5=s400\"); background-position: 50% 50%; background-size: cover;'"
-R c4|3|gc|114.517
-EE t|j|114.517
-AS eh|ei|3|gc|114.517
-SE ej|t|114.518
-EA ei|3|gc
-SE el|dB|114.518
-EA ei|3|gc
-M gd:"<re.Match object; span=(18, 158), match='url(\"//lh3.googleusercontent.com/RRjt2KFzG4sn084O>"
-AS en|eo|dx|gd|114.518
-SE eq|dB|114.518
-EA eo|dx|gd
-M ge:"'//lh3.googleusercontent.com/RRjt2KFzG4sn084OxKOm9HZLQn5hR0qiJi1Aht_SZuTQan5mVRTV0NoDSrFICt7ptNHppk7NM2_mKpHOgMgO4bGdf7y5j7l5LIg5=s400'"
-R es|3|ge|114.518
-EE dB|j|114.519
-EE dB|j|114.519
-EE t|j|114.519
-AS eu|ev|3|ge|114.519
-M gf:"'RRjt2KFzG4sn084OxKOm9HZLQn5hR0qiJi1Aht_SZuTQan5mVRTV0NoDSrFICt7ptNHppk7NM2_mKpHOgMgO4bGdf7y5j7l5LIg5=s400'"
-AS ew|ex|3|gf|114.519
-M gg:"'output/RRjt2KFzG4sn084OxKOm9HZLQn5hR0qiJi1Aht_SZuTQan5mVRTV0NoDSrFICt7ptNHppk7NM2_mKpHOgMgO4bGdf7y5j7l5LIg5=s400.png'"
-AS ez|eA|3|gg|114.52
-SE eC|t|114.52
-EA ev|3|ge
-EA eG|3|gg
-SE y|t|114.521
-EA C|D|E
-EA F|G|H
-EE t|j|114.613
-M gh:"<RPA.Browser.Selenium.Selenium object at 0x7097a6301de0>"
-AS eH|af|ag|gh|114.613
-SE eJ|t|114.613
-M gi:"(<RPA.Browser.Selenium.Selenium object at 0x7097a6301de0>, '//lh3.googleusercontent.com/RRjt2KFzG4sn084OxKOm9HZLQn5hR0qiJi1Aht_SZuTQan5mVRTV0NoDSrFICt7ptNHppk7NM2_mKpHOgMgO4bGdf7y5j7l5LIg5=s400')"
-EA C|D|gi
-EA F|G|H
-C h|aA|115.001
-C h|aB|115.006
-C h|aC|115.006
-C h|aD|116.726
-C h|aE|116.726
-M gj:"INFO:RobotFramework:Opening url 'https://lh3.googleusercontent.com/RRjt2KFzG4sn084OxKOm9HZLQn5hR0qiJi1Aht_SZuTQan5mVRTV0NoDSrFICt7ptNHppk7NM2_mKpHOgMgO4bGdf7y5j7l5LIg5=s400'\n"
-C h|gj|116.726
-R eP|7|8|119.144
-EE t|j|119.144
-SE eQ|t|119.144
-M gk:"'<html style=\"height: 100%;\"><head><meta name=\"viewport\" content=\"width=device-width, minimum-scale=0.1\"><title>RRjt2KFzG4sn084OxKOm9HZLQn5hR0qiJi1Aht_SZuTQan5mVRTV0NoDSrFICt7ptNHppk7NM2_mKpHOgMgO4bGdf7y5j7l5LIg5=s400 (400\u00d7266)</title></head><body style=\"margin: 0px; height: 100%; background-color: rgb(14, 14, 14);\"><img style=\"display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;\" src=\"https://lh3.googleusercontent.com/RRjt2KFzG4sn084OxKOm9HZLQn5hR0qiJi1Aht_SZuTQan5mVRTV0NoDSrFICt7ptNHppk7NM2_mKpHOgMgO4bGdf7y5j7l5LIg5=s400\"></body></html>'"
-R eU|3|gk|119.154
-EE t|j|119.154
-AS eW|eX|3|gk|119.154
-M gl:"INFO:root:Image downloaded successfully: output/RRjt2KFzG4sn084OxKOm9HZLQn5hR0qiJi1Aht_SZuTQan5mVRTV0NoDSrFICt7ptNHppk7NM2_mKpHOgMgO4bGdf7y5j7l5LIg5=s400.png\n"
-C h|gl|119.155
-R eZ|an|cf|119.155
-EE t|j|119.155
-SE e0|t|119.156
-EA cZ|3|f0
-EA dd|3|f3
-AS e2|e3|3|e4|119.156
-AS e5|e6|an|ao|119.156
-AS e7|e8|an|ao|119.156
-R e9|an|ao|119.157
-EE t|j|119.157
-AS fa|fb|an|ao|119.157
-SE fc|t|119.157
-EA 2|3|4
-EA cZ|3|f0
-EA dd|3|f3
-AS fe|ff|3|4|119.158
-M gm:"\"haiti transitional government takes power as gangs hold capital 'hostage'\""
-AS fg|fh|3|gm|119.158
-M gn:"\"haiti's transition council took power in a ceremony on thursday, formalising the resignation of former prime minster ariel henry as the caribbean country seeks to establish security after years of gang violence wreaking chaos and misery.\""
-AS fj|fk|3|gn|119.159
-AS fm|fn|7|fo|119.159
-AS fp|fq|7|fo|119.159
-AS fr|fs|7|fo|119.159
-R ft|7|fo|119.16
-EE t|j|119.16
-AS fu|fv|7|fo|119.16
-EE dB|j|119.16
-EE dB|j|119.16
-EE R|j|119.161
-SE cD|R|119.161
-M go:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_66\")>"
-EA cF|cG|go
-SE cI|t|119.161
+M d1:"<re.Match object; span=(0, 11), match='2 years ago'>"
+AS dv|dw|dx|d1|32.424
+SE dz|dB|32.424
+EA dw|dx|d1
+SE dC|dB|32.424
+M d2:"datetime.datetime(2022, 5, 21, 2, 6, 23, 187190)"
+AS dE|dq|dn|d2|32.424
+EE dB|j|32.424
+R dG|an|ao|32.424
+EE dB|j|32.425
+EE t|j|32.425
+EE R|j|32.425
+SE cD|R|32.425
+M d3:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_59\")>"
+EA cF|cG|d3
+SE cI|t|32.425
 EA cM|3|cN
 EA cO|3|cP
-M gp:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_116\")>"
-R cQ|cG|gp|119.179
-EE t|j|119.18
-AS cS|cT|cG|gp|119.18
-SE cU|t|119.181
-M gq:"'WARRIORS THUMP WP TO EXTEND WINNING STREAK'"
-R cW|3|gq|119.192
-EE t|j|119.192
-AS cY|cZ|3|gq|119.192
-SE c0|t|119.192
+M d4:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_75\")>"
+R cQ|cG|d4|32.44
+EE t|j|32.44
+AS cS|cT|cG|d4|32.44
+SE cU|t|32.441
+M d5:"'POLL | HOW ARE YOU SPENDING VALENTINE\u2019S DAY?'"
+R cW|3|d5|32.454
+EE t|j|32.454
+AS cY|cZ|3|d5|32.454
+SE c0|t|32.454
 EA c2|3|c3
-M gr:"'https://www.timeslive.co.za/sport/cricket/2024-03-31-warriors-thump-wp-to-extend-winning-streak/'"
-R c4|3|gr|119.202
-EE t|j|119.202
-AS c6|ak|3|gr|119.202
-SE cI|t|119.202
+M d6:"'https://www.timeslive.co.za/news/south-africa/2022-02-14-poll-how-are-you-spending-valentines-day/'"
+R c4|3|d6|32.469
+EE t|j|32.469
+AS c6|ak|3|d6|32.47
+SE cI|t|32.47
 EA cM|3|cN
 EA cO|3|c7
-M gs:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_117\")>"
-R cQ|cG|gs|119.216
-EE t|j|119.216
-AS c9|da|cG|gs|119.217
-SE cU|t|119.217
-M gt:"\"A measured Matthew Breetzke half-century helped extend the Warriors' winning run to eight as they thumped Western Province by nine wickets in the CSA T20 Challenge in Paarl on Sunday.\""
-R cW|3|gt|119.226
-EE t|j|119.227
-AS dc|dd|3|gt|119.227
-SE cI|t|119.227
+M d7:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_76\")>"
+R cQ|cG|d7|32.484
+EE t|j|32.484
+AS c9|da|cG|d7|32.484
+SE cU|t|32.485
+M d8:"'Some admitted they are disappointed about being single while others poked fun at it.'"
+R cW|3|d8|32.494
+EE t|j|32.495
+AS dc|dd|3|d8|32.495
+SE cI|t|32.496
 EA cM|3|cN
 EA cO|3|de
-M gu:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_118\")>"
-R cQ|cG|gu|119.24
-EE t|j|119.24
-AS dg|dh|cG|gu|119.24
-SE cU|t|119.241
-M gv:"'2 months ago'"
-R cW|3|gv|119.252
-EE t|j|119.252
-AS dj|dk|3|gv|119.252
-M gw:"datetime.datetime(2024, 5, 20, 1, 22, 30, 249659)"
-AS dl|dm|dn|gw|119.252
-M gx:"datetime.datetime(2024, 4, 20, 1, 22, 30, 249659)"
-AS dp|dq|dn|gx|119.252
-SE ds|t|119.253
-EA du|3|gv
-EA dm|dn|gw
+M d9:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_77\")>"
+R cQ|cG|d9|32.508
+EE t|j|32.508
+AS dg|dh|cG|d9|32.508
+SE cU|t|32.508
+R cW|3|dY|32.524
+EE t|j|32.524
+AS dj|dk|3|dY|32.524
+M ea:"datetime.datetime(2024, 5, 20, 2, 6, 23, 288070)"
+AS dl|dm|dn|ea|32.524
+M eb:"datetime.datetime(2024, 4, 20, 2, 6, 23, 288070)"
+AS dp|dq|dn|eb|32.524
+SE ds|t|32.524
+EA du|3|dY
+EA dm|dn|ea
 EA cl|7|8
-M gy:"<re.Match object; span=(0, 12), match='2 months ago'>"
-AS dv|dw|dx|gy|119.253
-SE dz|dB|119.253
-EA dw|dx|gy
-M gA:"elif unit.startswith('month')"
-P gz:gA|w|x|e|208
-SE gz|dB|119.253
-P gB:dt|w|x|e|209
-M gC:"datetime.datetime(2024, 3, 21, 1, 22, 30, 249659)"
-AS gB|dq|dn|gC|119.254
-EE dB|j|119.254
-R dG|an|ao|119.254
-EE dB|j|119.254
-EE t|j|119.254
-EE R|j|119.255
-SE cD|R|119.255
-M gD:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_67\")>"
-EA cF|cG|gD
-SE cI|t|119.255
+AS dv|dw|dx|d1|32.525
+SE dz|dB|32.525
+EA dw|dx|d1
+SE dC|dB|32.525
+M ec:"datetime.datetime(2022, 5, 21, 2, 6, 23, 288070)"
+AS dE|dq|dn|ec|32.525
+EE dB|j|32.525
+R dG|an|ao|32.525
+EE dB|j|32.525
+EE t|j|32.525
+EE R|j|32.525
+SE cD|R|32.526
+M ed:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_60\")>"
+EA cF|cG|ed
+SE cI|t|32.526
 EA cM|3|cN
 EA cO|3|cP
-M gE:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_119\")>"
-R cQ|cG|gE|119.267
-EE t|j|119.267
-AS cS|cT|cG|gE|119.267
-SE cU|t|119.267
-M gF:"'OUT THE MOUTHS OF BABES, THE TRUTH LAID BARE'"
-R cW|3|gF|119.277
-EE t|j|119.277
-AS cY|cZ|3|gF|119.277
-SE c0|t|119.277
+M ee:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_78\")>"
+R cQ|cG|ee|32.541
+EE t|j|32.541
+AS cS|cT|cG|ee|32.541
+SE cU|t|32.541
+M ef:"'YOUR WEEKLY HOROSCOPE | FEBRUARY 13 TO 19'"
+R cW|3|ef|32.554
+EE t|j|32.554
+AS cY|cZ|3|ef|32.554
+SE c0|t|32.554
 EA c2|3|c3
-M gG:"'https://www.timeslive.co.za/sunday-times/opinion-and-analysis/hogarth/2024-03-17-out-the-mouths-of-babes-the-truth-laid-bare/'"
-R c4|3|gG|119.29
-EE t|j|119.29
-AS c6|ak|3|gG|119.29
-SE cI|t|119.291
+M eg:"'https://www.timeslive.co.za/sunday-times/lifestyle/2022-02-13-your-weekly-horoscope--february-13-to-19/'"
+R c4|3|eg|32.57
+EE t|j|32.57
+AS c6|ak|3|eg|32.571
+SE cI|t|32.571
 EA cM|3|cN
 EA cO|3|c7
-M gH:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_120\")>"
-R cQ|cG|gH|119.301
-EE t|j|119.301
-AS c9|da|cG|gH|119.301
-SE cU|t|119.301
-M gI:"'Youth leader Collen Malatji tells it as he sees it, writes Hogarth.'"
-R cW|3|gI|119.311
-EE t|j|119.311
-AS dc|dd|3|gI|119.312
-SE cI|t|119.312
+M eh:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_79\")>"
+R cQ|cG|eh|32.585
+EE t|j|32.585
+AS c9|da|cG|eh|32.585
+SE cU|t|32.585
+M ei:"'What do the stars have in store for you this week?'"
+R cW|3|ei|32.595
+EE t|j|32.595
+AS dc|dd|3|ei|32.596
+SE cI|t|32.596
 EA cM|3|cN
 EA cO|3|de
-M gJ:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_121\")>"
-R cQ|cG|gJ|119.325
-EE t|j|119.325
-AS dg|dh|cG|gJ|119.325
-SE cU|t|119.326
-R cW|3|gv|119.337
-EE t|j|119.337
-AS dj|dk|3|gv|119.337
-M gK:"datetime.datetime(2024, 5, 20, 1, 22, 30, 334603)"
-AS dl|dm|dn|gK|119.337
-M gL:"datetime.datetime(2024, 4, 20, 1, 22, 30, 334603)"
-AS dp|dq|dn|gL|119.337
-SE ds|t|119.338
-EA du|3|gv
-EA dm|dn|gK
+M ej:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_80\")>"
+R cQ|cG|ej|32.609
+EE t|j|32.609
+AS dg|dh|cG|ej|32.609
+SE cU|t|32.609
+R cW|3|dY|32.625
+EE t|j|32.625
+AS dj|dk|3|dY|32.625
+M ek:"datetime.datetime(2024, 5, 20, 2, 6, 23, 389185)"
+AS dl|dm|dn|ek|32.625
+M el:"datetime.datetime(2024, 4, 20, 2, 6, 23, 389185)"
+AS dp|dq|dn|el|32.625
+SE ds|t|32.626
+EA du|3|dY
+EA dm|dn|ek
 EA cl|7|8
-AS dv|dw|dx|gy|119.338
-SE dz|dB|119.338
-EA dw|dx|gy
-SE gz|dB|119.338
-M gM:"datetime.datetime(2024, 3, 21, 1, 22, 30, 334603)"
-AS gB|dq|dn|gM|119.338
-EE dB|j|119.338
-R dG|an|ao|119.339
-EE dB|j|119.339
-EE t|j|119.339
-EE R|j|119.339
-SE cD|R|119.339
-M gN:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_68\")>"
-EA cF|cG|gN
-SE cI|t|119.339
+AS dv|dw|dx|d1|32.626
+SE dz|dB|32.626
+EA dw|dx|d1
+SE dC|dB|32.626
+M em:"datetime.datetime(2022, 5, 21, 2, 6, 23, 389185)"
+AS dE|dq|dn|em|32.626
+EE dB|j|32.626
+R dG|an|ao|32.627
+EE dB|j|32.627
+EE t|j|32.627
+EE R|j|32.627
+SE cD|R|32.627
+M en:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_61\")>"
+EA cF|cG|en
+SE cI|t|32.627
 EA cM|3|cN
 EA cO|3|cP
-M gO:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_122\")>"
-R cQ|cG|gO|119.351
-EE t|j|119.351
-AS cS|cT|cG|gO|119.351
-SE cU|t|119.351
-M gP:"\"HAITI'S NEIGHBORS PREPARE FOR 'DRASTIC ESCALATION' IN VIOLENCE AFTER JAILBREAK\""
-R cW|3|gP|119.371
-EE t|j|119.371
-AS cY|cZ|3|gP|119.371
-SE c0|t|119.372
+M eo:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_81\")>"
+R cQ|cG|eo|32.641
+EE t|j|32.641
+AS cS|cT|cG|eo|32.641
+SE cU|t|32.641
+M ep:"'YOUNG ECO-ACTIVIST ROMARIO VALENTINE AIMS TO RAISE R30K FOR CONSERVATION'"
+R cW|3|ep|32.654
+EE t|j|32.654
+AS cY|cZ|3|ep|32.654
+SE c0|t|32.654
 EA c2|3|c3
-M gQ:"'https://www.timeslive.co.za/news/world/2024-03-05-haitis-neighbors-prepare-for-drastic-escalation-in-violence-after-jailbreak/'"
-R c4|3|gQ|119.391
-EE t|j|119.391
-AS c6|ak|3|gQ|119.392
-SE cI|t|119.392
+M eq:"'https://www.timeslive.co.za/sunday-times/lifestyle/travel/2021-07-04-young-eco-activist-romario-valentine-aims-to-raise-r30k-for-conservation/'"
+R c4|3|eq|32.67
+EE t|j|32.67
+AS c6|ak|3|eq|32.67
+SE cI|t|32.67
 EA cM|3|cN
 EA cO|3|c7
-M gR:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_123\")>"
-R cQ|cG|gR|119.474
-EE t|j|119.474
-AS c9|da|cG|gR|119.474
-SE cU|t|119.474
-M gS:"\"Haiti's neighbors on Monday began shoring up their defenses and recalling embassy staff as a gang conflict in the Caribbean nation escalated and thousands fled fresh fighting.\""
-R cW|3|gS|119.486
-EE t|j|119.486
-AS dc|dd|3|gS|119.486
-SE cI|t|119.486
+M er:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_82\")>"
+R cQ|cG|er|32.682
+EE t|j|32.683
+AS c9|da|cG|er|32.683
+SE cU|t|32.683
+M es:"'All Romario Valentine wants for his 10th birthday is to help provide a safe haven for endangered African grey parrots and to plant trees to save the environment.'"
+R cW|3|es|32.692
+EE t|j|32.692
+AS dc|dd|3|es|32.692
+SE cI|t|32.692
 EA cM|3|cN
 EA cO|3|de
-M gT:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_124\")>"
-R cQ|cG|gT|119.496
-EE t|j|119.496
-AS dg|dh|cG|gT|119.496
-SE cU|t|119.496
-M gU:"'3 months ago'"
-R cW|3|gU|119.506
-EE t|j|119.507
-AS dj|dk|3|gU|119.507
-M gV:"datetime.datetime(2024, 5, 20, 1, 22, 30, 504319)"
-AS dl|dm|dn|gV|119.507
-M gW:"datetime.datetime(2024, 4, 20, 1, 22, 30, 504319)"
-AS dp|dq|dn|gW|119.507
-SE ds|t|119.507
-EA du|3|gU
-EA dm|dn|gV
+M et:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_83\")>"
+R cQ|cG|et|32.709
+EE t|j|32.709
+AS dg|dh|cG|et|32.709
+SE cU|t|32.709
+M eu:"'3 years ago'"
+R cW|3|eu|32.722
+EE t|j|32.723
+AS dj|dk|3|eu|32.723
+M ev:"datetime.datetime(2024, 5, 20, 2, 6, 23, 487009)"
+AS dl|dm|dn|ev|32.723
+M ew:"datetime.datetime(2024, 4, 20, 2, 6, 23, 487009)"
+AS dp|dq|dn|ew|32.723
+SE ds|t|32.723
+EA du|3|eu
+EA dm|dn|ev
 EA cl|7|8
-M gX:"<re.Match object; span=(0, 12), match='3 months ago'>"
-AS dv|dw|dx|gX|119.508
-SE dz|dB|119.508
-EA dw|dx|gX
-SE gz|dB|119.508
-M gY:"datetime.datetime(2024, 2, 20, 1, 22, 30, 504319)"
-AS gB|dq|dn|gY|119.508
-EE dB|j|119.508
-R dG|an|ao|119.509
-EE dB|j|119.509
-EE t|j|119.509
-EE R|j|119.509
-SE cD|R|119.509
-M gZ:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_69\")>"
-EA cF|cG|gZ
-SE cI|t|119.509
+M ex:"<re.Match object; span=(0, 11), match='3 years ago'>"
+AS dv|dw|dx|ex|32.724
+SE dz|dB|32.724
+EA dw|dx|ex
+SE dC|dB|32.724
+M ey:"datetime.datetime(2021, 5, 21, 2, 6, 23, 487009)"
+AS dE|dq|dn|ey|32.724
+EE dB|j|32.724
+R dG|an|ao|32.724
+EE dB|j|32.725
+EE t|j|32.725
+EE R|j|32.725
+SE cD|R|32.725
+M ez:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_62\")>"
+EA cF|cG|ez
+SE cI|t|32.725
 EA cM|3|cN
 EA cO|3|cP
-M g0:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_125\")>"
-R cQ|cG|g0|119.521
-EE t|j|119.521
-AS cS|cT|cG|g0|119.521
-SE cU|t|119.521
-M g1:"'HITS AND MISSES FROM MOTORING\u2019S MONTH OF LOVE'"
-R cW|3|g1|119.531
-EE t|j|119.531
-AS cY|cZ|3|g1|119.532
-SE c0|t|119.532
+M eA:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_84\")>"
+R cQ|cG|eA|32.735
+EE t|j|32.735
+AS cS|cT|cG|eA|32.735
+SE cU|t|32.735
+M eB:"'FORGET VALENTINE\u2019S DAY, WE MUST REMEMBER OUR OWN HERITAGE'"
+R cW|3|eB|32.745
+EE t|j|32.745
+AS cY|cZ|3|eB|32.745
+SE c0|t|32.745
 EA c2|3|c3
-M g2:"'https://www.timeslive.co.za/sunday-times/lifestyle/2024-02-28-hits-and-misses-from-motorings-month-of-love/'"
-R c4|3|g2|119.543
-EE t|j|119.543
-AS c6|ak|3|g2|119.543
-SE cI|t|119.544
+M eC:"'https://www.timeslive.co.za/ideas/2021-02-15-forget-valentines-day-we-must-remember-our-own-heritage/'"
+R c4|3|eC|32.756
+EE t|j|32.756
+AS c6|ak|3|eC|32.756
+SE cI|t|32.756
 EA cM|3|cN
 EA cO|3|c7
-M g3:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_126\")>"
-R cQ|cG|g3|119.553
-EE t|j|119.554
-AS c9|da|cG|g3|119.554
-SE cU|t|119.554
-M g4:"'A look back at February 2024 from a motoring perspective.'"
-R cW|3|g4|119.564
-EE t|j|119.564
-AS dc|dd|3|g4|119.564
-SE cI|t|119.564
+M eD:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_85\")>"
+R cQ|cG|eD|32.766
+EE t|j|32.766
+AS c9|da|cG|eD|32.766
+SE cU|t|32.766
+M eE:"'If you question the origins of this day, you will be very unpopular.'"
+R cW|3|eE|32.776
+EE t|j|32.776
+AS dc|dd|3|eE|32.776
+SE cI|t|32.776
 EA cM|3|cN
 EA cO|3|de
-M g5:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_127\")>"
-R cQ|cG|g5|119.577
-EE t|j|119.577
-AS dg|dh|cG|g5|119.577
-SE cU|t|119.577
-R cW|3|gU|119.588
-EE t|j|119.588
-AS dj|dk|3|gU|119.588
-M g6:"datetime.datetime(2024, 5, 20, 1, 22, 30, 585920)"
-AS dl|dm|dn|g6|119.588
-M g7:"datetime.datetime(2024, 4, 20, 1, 22, 30, 585920)"
-AS dp|dq|dn|g7|119.589
-SE ds|t|119.589
-EA du|3|gU
-EA dm|dn|g6
+M eF:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_86\")>"
+R cQ|cG|eF|32.787
+EE t|j|32.787
+AS dg|dh|cG|eF|32.787
+SE cU|t|32.787
+R cW|3|eu|32.801
+EE t|j|32.801
+AS dj|dk|3|eu|32.801
+M eG:"datetime.datetime(2024, 5, 20, 2, 6, 23, 565108)"
+AS dl|dm|dn|eG|32.801
+M eH:"datetime.datetime(2024, 4, 20, 2, 6, 23, 565108)"
+AS dp|dq|dn|eH|32.801
+SE ds|t|32.801
+EA du|3|eu
+EA dm|dn|eG
 EA cl|7|8
-AS dv|dw|dx|gX|119.589
-SE dz|dB|119.592
-EA dw|dx|gX
-SE gz|dB|119.592
-M g8:"datetime.datetime(2024, 2, 20, 1, 22, 30, 585920)"
-AS gB|dq|dn|g8|119.592
-EE dB|j|119.593
-R dG|an|ao|119.593
-EE dB|j|119.593
-EE t|j|119.593
-EE R|j|119.593
-SE cD|R|119.593
-M g9:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_70\")>"
-EA cF|cG|g9
-SE cI|t|119.593
+AS dv|dw|dx|ex|32.802
+SE dz|dB|32.802
+EA dw|dx|ex
+SE dC|dB|32.802
+M eI:"datetime.datetime(2021, 5, 21, 2, 6, 23, 565108)"
+AS dE|dq|dn|eI|32.802
+EE dB|j|32.802
+R dG|an|ao|32.802
+EE dB|j|32.803
+EE t|j|32.803
+EE R|j|32.803
+SE cD|R|32.803
+M eJ:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_63\")>"
+EA cF|cG|eJ
+SE cI|t|32.803
 EA cM|3|cN
 EA cO|3|cP
-M ha:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_128\")>"
-R cQ|cG|ha|119.603
-EE t|j|119.603
-AS cS|cT|cG|ha|119.604
-SE cU|t|119.604
-M hb:"'\u2018I LOVE YOU\u2019: NAVALNY\u2019S WIDOW YULIA SAYS BESIDE A PICTURE OF THEM TOGETHER'"
-R cW|3|hb|119.614
-EE t|j|119.614
-AS cY|cZ|3|hb|119.614
-SE c0|t|119.614
+M eK:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_87\")>"
+R cQ|cG|eK|32.812
+EE t|j|32.812
+AS cS|cT|cG|eK|32.813
+SE cU|t|32.813
+M eL:"'GET A CELEB CHEF TO HELP YOU WOO YOUR VALENTINE: SIX FAB PRESENTS FOR FOODIES'"
+R cW|3|eL|32.823
+EE t|j|32.823
+AS cY|cZ|3|eL|32.823
+SE c0|t|32.823
 EA c2|3|c3
-M hc:"'https://www.timeslive.co.za/sunday-times-daily/world/2024-02-18-i-love-you-navalnys-widow-yulia-says-beside-a-picture-of-them-together/'"
-R c4|3|hc|119.732
-EE t|j|119.732
-AS c6|ak|3|hc|119.733
-SE cI|t|119.734
+M eM:"'https://www.timeslive.co.za/sunday-times/lifestyle/food/2021-02-04-get-a-celeb-chef-to-help-you-woo-your-valentine-six-fab-presents-for-foodies/'"
+R c4|3|eM|32.833
+EE t|j|32.833
+AS c6|ak|3|eM|32.833
+SE cI|t|32.833
 EA cM|3|cN
 EA cO|3|c7
-M hd:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_129\")>"
-R cQ|cG|hd|119.75
-EE t|j|119.751
-AS c9|da|cG|hd|119.751
-SE cU|t|119.751
-M he:"'Political prisoner Alexei Navalny was detained in 2011 during an opposition protest against alleged vote-rigging, died in a Russian jail on Friday'"
-R cW|3|he|119.764
-EE t|j|119.764
-AS dc|dd|3|he|119.764
-SE cI|t|119.765
+M eN:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_88\")>"
+R cQ|cG|eN|32.844
+EE t|j|32.845
+AS c9|da|cG|eN|32.845
+SE cU|t|32.845
+M eO:"\"If you're in love with a food lover, we've got great ideas of what you can gift them this Valentine's Day\""
+R cW|3|eO|32.855
+EE t|j|32.856
+AS dc|dd|3|eO|32.856
+SE cI|t|32.856
 EA cM|3|cN
 EA cO|3|de
-M hf:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_130\")>"
-R cQ|cG|hf|119.777
-EE t|j|119.777
-AS dg|dh|cG|hf|119.777
-SE cU|t|119.777
-R cW|3|gU|119.791
-EE t|j|119.794
-AS dj|dk|3|gU|119.795
-M hg:"datetime.datetime(2024, 5, 20, 1, 22, 30, 792330)"
-AS dl|dm|dn|hg|119.795
-M hh:"datetime.datetime(2024, 4, 20, 1, 22, 30, 792330)"
-AS dp|dq|dn|hh|119.795
-SE ds|t|119.795
-EA du|3|gU
-EA dm|dn|hg
+M eP:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_89\")>"
+R cQ|cG|eP|32.865
+EE t|j|32.865
+AS dg|dh|cG|eP|32.865
+SE cU|t|32.865
+R cW|3|eu|32.875
+EE t|j|32.875
+AS dj|dk|3|eu|32.875
+M eQ:"datetime.datetime(2024, 5, 20, 2, 6, 23, 639401)"
+AS dl|dm|dn|eQ|32.875
+M eR:"datetime.datetime(2024, 4, 20, 2, 6, 23, 639401)"
+AS dp|dq|dn|eR|32.875
+SE ds|t|32.876
+EA du|3|eu
+EA dm|dn|eQ
 EA cl|7|8
-AS dv|dw|dx|gX|119.796
-SE dz|dB|119.796
-EA dw|dx|gX
-SE gz|dB|119.796
-M hi:"datetime.datetime(2024, 2, 20, 1, 22, 30, 792330)"
-AS gB|dq|dn|hi|119.796
-EE dB|j|119.796
-R dG|an|ao|119.797
-EE dB|j|119.797
-EE t|j|119.797
-EE R|j|119.797
-SE cD|R|119.797
-M hj:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_71\")>"
-EA cF|cG|hj
-SE cI|t|119.797
+AS dv|dw|dx|ex|32.876
+SE dz|dB|32.876
+EA dw|dx|ex
+SE dC|dB|32.876
+M eS:"datetime.datetime(2021, 5, 21, 2, 6, 23, 639401)"
+AS dE|dq|dn|eS|32.876
+EE dB|j|32.876
+R dG|an|ao|32.877
+EE dB|j|32.877
+EE t|j|32.877
+EE R|j|32.877
+SE cD|R|32.877
+M eT:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_64\")>"
+EA cF|cG|eT
+SE cI|t|32.877
 EA cM|3|cN
 EA cO|3|cP
-M hk:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_131\")>"
-R cQ|cG|hk|119.809
-EE t|j|119.809
-AS cS|cT|cG|hk|119.809
-SE cU|t|119.809
-M hl:"'BEING YOUR CHILDREN\u2019S WINGMAN IS NOT WHAT IT WAS IN THE 1980S'"
-R cW|3|hl|119.822
-EE t|j|119.822
-AS cY|cZ|3|hl|119.822
-SE c0|t|119.823
+M eU:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_90\")>"
+R cQ|cG|eU|32.888
+EE t|j|32.888
+AS cS|cT|cG|eU|32.888
+SE cU|t|32.888
+M eV:"'INFAMOUS SA CULTS AND OTHER GROUPS ACCUSED OF SHADOWY WAYS'"
+R cW|3|eV|32.898
+EE t|j|32.899
+AS cY|cZ|3|eV|32.899
+SE c0|t|32.899
 EA c2|3|c3
-M hm:"'https://www.timeslive.co.za/sunday-times/lifestyle/2024-02-18-being-your-childrens-wingman-is-not-what-it-was-in-the-1980s/'"
-R c4|3|hm|119.832
-EE t|j|119.832
-AS c6|ak|3|hm|119.832
-SE cI|t|119.833
+M eW:"'https://www.timeslive.co.za/sunday-times/lifestyle/2020-11-23-five-infamous-and-in-some-cases-deadly-sa-cults/'"
+R c4|3|eW|32.909
+EE t|j|32.909
+AS c6|ak|3|eW|32.909
+SE cI|t|32.909
 EA cM|3|cN
 EA cO|3|c7
-M hn:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_132\")>"
-R cQ|cG|hn|119.843
-EE t|j|119.844
-AS c9|da|cG|hn|119.844
-SE cU|t|119.844
-M ho:"'I know I\u2019m not the only parent my age whose relaxed, more engaged attitude towards their children\u2019s dating life was informed by the Huxtables'"
-R cW|3|ho|119.855
-EE t|j|119.855
-AS dc|dd|3|ho|119.856
-SE cI|t|119.856
+M eX:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_91\")>"
+R cQ|cG|eX|32.92
+EE t|j|32.92
+AS c9|da|cG|eX|32.92
+SE cU|t|32.92
+M eY:"'These groups share several characteristics ... and many of their leaders expect complete obedience from members'"
+R cW|3|eY|32.931
+EE t|j|32.931
+AS dc|dd|3|eY|32.931
+SE cI|t|32.932
 EA cM|3|cN
 EA cO|3|de
-M hp:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_133\")>"
-R cQ|cG|hp|119.865
-EE t|j|119.865
-AS dg|dh|cG|hp|119.865
-SE cU|t|119.865
-R cW|3|gU|119.876
-EE t|j|119.876
-AS dj|dk|3|gU|119.876
-M hq:"datetime.datetime(2024, 5, 20, 1, 22, 30, 873488)"
-AS dl|dm|dn|hq|119.876
-M hr:"datetime.datetime(2024, 4, 20, 1, 22, 30, 873488)"
-AS dp|dq|dn|hr|119.876
-SE ds|t|119.876
-EA du|3|gU
-EA dm|dn|hq
+M eZ:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_92\")>"
+R cQ|cG|eZ|32.941
+EE t|j|32.941
+AS dg|dh|cG|eZ|32.941
+SE cU|t|32.941
+R cW|3|eu|32.951
+EE t|j|32.951
+AS dj|dk|3|eu|32.951
+M e0:"datetime.datetime(2024, 5, 20, 2, 6, 23, 715399)"
+AS dl|dm|dn|e0|32.951
+M e1:"datetime.datetime(2024, 4, 20, 2, 6, 23, 715399)"
+AS dp|dq|dn|e1|32.951
+SE ds|t|32.952
+EA du|3|eu
+EA dm|dn|e0
 EA cl|7|8
-AS dv|dw|dx|gX|119.877
-SE dz|dB|119.877
-EA dw|dx|gX
-SE gz|dB|119.877
-M hs:"datetime.datetime(2024, 2, 20, 1, 22, 30, 873488)"
-AS gB|dq|dn|hs|119.877
-EE dB|j|119.877
-R dG|an|ao|119.877
-EE dB|j|119.878
-EE t|j|119.878
-EE R|j|119.878
-SE cD|R|119.878
-M ht:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_72\")>"
-EA cF|cG|ht
-SE cI|t|119.878
+AS dv|dw|dx|ex|32.952
+SE dz|dB|32.952
+EA dw|dx|ex
+SE dC|dB|32.952
+M e2:"datetime.datetime(2021, 5, 21, 2, 6, 23, 715399)"
+AS dE|dq|dn|e2|32.952
+EE dB|j|32.953
+R dG|an|ao|32.953
+EE dB|j|32.953
+EE t|j|32.953
+EE R|j|32.953
+SE cD|R|32.953
+M e3:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_65\")>"
+EA cF|cG|e3
+SE cI|t|32.953
 EA cM|3|cN
 EA cO|3|cP
-M hu:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_134\")>"
-R cQ|cG|hu|119.887
-EE t|j|119.887
-AS cS|cT|cG|hu|119.887
-SE cU|t|119.887
-M hv:"\"R16,000 RAISED BY VIRGINIA SPCA BY 'NEUTERING YOUR EX'\""
-R cW|3|hv|119.897
-EE t|j|119.898
-AS cY|cZ|3|hv|119.898
-SE c0|t|119.898
+M e4:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_93\")>"
+R cQ|cG|e4|32.963
+EE t|j|32.963
+AS cS|cT|cG|e4|32.963
+SE cU|t|32.963
+M e5:"'JOHN LEGEND, R4,500 ROSES AND KINKY FORTUNE COOKIES: WHAT SOUTH AFRICANS WILL GIFT ON V DAY'"
+R cW|3|e5|32.973
+EE t|j|32.973
+AS cY|cZ|3|e5|32.973
+SE c0|t|32.973
 EA c2|3|c3
-M hw:"'https://www.timeslive.co.za/sunday-times-daily/news/2024-02-15-r16000-raised-by-virginia-spca-by-neutering-your-ex/'"
-R c4|3|hw|119.908
-EE t|j|119.908
-AS c6|ak|3|hw|119.908
-SE cI|t|119.908
+M e6:"'https://www.timeslive.co.za/sunday-times/lifestyle/2020-02-13-john-legend-r4500-roses-and-kinky-fortune-cookies-what-south-africans-will-gift-on-v-day/'"
+R c4|3|e6|32.983
+EE t|j|32.983
+AS c6|ak|3|e6|32.983
+SE cI|t|32.984
 EA cM|3|cN
 EA cO|3|c7
-M hx:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_135\")>"
-R cQ|cG|hx|119.918
-EE t|j|119.918
-AS c9|da|cG|hx|119.918
-SE cU|t|119.918
-M hy:"\"'We are always trying to find novel ways of raising funds for our animal friends'\""
-R cW|3|hy|119.93
-EE t|j|119.93
-AS dc|dd|3|hy|119.93
-SE cI|t|119.93
+M e7:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_94\")>"
+R cQ|cG|e7|32.993
+EE t|j|32.993
+AS c9|da|cG|e7|32.993
+SE cU|t|32.993
+M e8:"'From splurging on red roses to various quirky requests, South Africans appear to be going all out for Valentine\u2019s Day'"
+R cW|3|e8|33.003
+EE t|j|33.003
+AS dc|dd|3|e8|33.003
+SE cI|t|33.004
 EA cM|3|cN
 EA cO|3|de
-M hz:"<selenium.webdriver.remote.webelement.WebElement (session=\"a8b47c6ab06dbd77f438bd832daff513\", element=\"36DECBECB38A22B0D1162A57C3A7EEF1_element_136\")>"
-R cQ|cG|hz|119.94
-EE t|j|119.94
-AS dg|dh|cG|hz|119.94
-SE cU|t|119.941
-R cW|3|gU|119.951
-EE t|j|119.951
-AS dj|dk|3|gU|119.951
-M hA:"datetime.datetime(2024, 5, 20, 1, 22, 30, 948666)"
-AS dl|dm|dn|hA|119.951
-M hB:"datetime.datetime(2024, 4, 20, 1, 22, 30, 948666)"
-AS dp|dq|dn|hB|119.952
-SE ds|t|119.952
-EA du|3|gU
-EA dm|dn|hA
+M e9:"<selenium.webdriver.remote.webelement.WebElement (session=\"ae6ec15c16154e56915391e8f8b1074f\", element=\"81E7DFED86DC201A274C2CFDE74B5DCF_element_95\")>"
+R cQ|cG|e9|33.012
+EE t|j|33.012
+AS dg|dh|cG|e9|33.013
+SE cU|t|33.013
+M fa:"'4 years ago'"
+R cW|3|fa|33.022
+EE t|j|33.023
+AS dj|dk|3|fa|33.023
+M fb:"datetime.datetime(2024, 5, 20, 2, 6, 23, 786985)"
+AS dl|dm|dn|fb|33.023
+M fc:"datetime.datetime(2024, 4, 20, 2, 6, 23, 786985)"
+AS dp|dq|dn|fc|33.023
+SE ds|t|33.023
+EA du|3|fa
+EA dm|dn|fb
 EA cl|7|8
-AS dv|dw|dx|gX|119.952
-SE dz|dB|119.952
-EA dw|dx|gX
-SE gz|dB|119.953
-M hC:"datetime.datetime(2024, 2, 20, 1, 22, 30, 948666)"
-AS gB|dq|dn|hC|119.953
-EE dB|j|119.953
-R dG|an|ao|119.953
-EE dB|j|119.953
-EE t|j|119.953
-EE R|j|119.954
-EE O|j|119.954
-M hE:"save_to_excel"
-P hD:hE|eE|eF|e|39
-SE hD|t|119.954
-M hF:"data"
-M hG:"[{'title': \"PANAMA'S PRESIDENT-ELECT VOWS TO HELP FIX CANAL WATER PROBLEMS, BUILD MAJOR TRAIN LINE\", 'description': \"Panama's president-elect, Jose Raul Mulino, said on Wednesday he will urge lawmakers to approve a law enabling the Panama Canal to build large water reservoirs in the face of an unprecedented drought that has hit the capacity of the vital waterway.\", 'date': '2 weeks ago', 'image_file_name': '6NZiEKv71VGv5FZjQfup6ZKGtQOkaTVkP0mv4zniYVDe6LckHZxMVNRdFq411-il7ie9HvBWQNXPCWBi0X-C8kY5GB8BrIV77SE=s400.png', 'search_phrase_occurrences': 0, 'contains_money_mention': False}, {'title': 'ALCOHOL-FREE FINE DINING BECOMING MORE OF A (SOUTH AFRICAN) THING AND THE CHEFS ARE READY FOR IT', 'description': 'Many people are making the conscious decision to move away from alcohol for health reasons but still want to enjoy interesting beverages - and restaurants are up for it', 'date': '3 weeks ago', 'image_file_name': 'J2gmw7wcIBJNWOuC6YpHZ1Z2CoKPpjUkPgqQhetUkEgHP6DaSIvN_Gp9XagwpEF-13EL8-0h_7-2GiuQQPM7bRjwut9xQ4apjJw=s400.png', 'search_phrase_occurrences': 0, 'contains_money_mention': False}, {'title': \"HAITI TRANSITIONAL GOVERNMENT TAKES POWER AS GANGS HOLD CAPITAL 'HOSTAGE'\", 'description': \"Haiti's transition council took power in a ceremony on Thursday, formalising the resignation of former Prime Minster Ariel Henry as the Caribbean country seeks to establish security after years of gang violence wreaking chaos and misery.\", 'date': '3 weeks ago', 'image_file_name': 'RRjt2KFzG4sn084OxKOm9HZLQn5hR0qiJi1Aht_SZuTQan5mVRTV0NoDSrFICt7ptNHppk7NM2_mKpHOgMgO4bGdf7y5j7l5LIg5=s400.png', 'search_phrase_occurrences': 0, 'contains_money_mention': False}]"
-EA hF|cp|hG
-P hH:hE|eE|eF|e|51
-M hI:"news_df"
-M hJ:"DataFrame"
-M hK:"                                               title  ... contains_money_mention\n0  PANAMA'S PRESIDENT-ELECT VOWS TO HELP FIX CANA...  ...                  False\n1  ALCOHOL-FREE FINE DINING BECOMING MORE OF A (S...  ...                  False\n2  HAITI TRANSITIONAL GOVERNMENT TAKES POWER AS G...  ...                  False\n\n[3 rows x 6 columns]"
-AS hH|hI|hJ|hK|121.748
-P hL:hE|eE|eF|e|53
-M hM:"'2024-05-20_01-22-32'"
-AS hL|dm|3|hM|121.749
-P hN:hE|eE|eF|e|54
-M hO:"excel_file_path"
-M hP:"'output/news_data_2024-05-20_01-22-32.xlsx'"
-AS hN|hO|3|hP|121.75
-M hQ:"INFO:root:Data saved to Excel successfully at output/news_data_2024-05-20_01-22-32.xlsx\n"
-C h|hQ|128.805
-P hR:hE|eE|eF|e|59
-R hR|3|hP|128.805
-EE t|j|128.806
-P hS:ck|w|x|e|156
-R hS|cp|hG|128.806
-EE t|j|128.806
-EE R|j|128.807
-M hT:"INFO:robocorp.workitems._adapters._file:Releasing item '0' with COMPLETED state and exception: None\n"
-C h|hT|128.807
-EE O|j|128.808
-EE t|j|128.808
-C r|l|128.808
-M hU:" status: "
-C f|hU|128.809
-M hV:"PASS\n"
-C f|hV|128.809
-M hW:"================================================================================\n"
-C f|hW|128.809
-ET j|e|128.81
-M hY:"Teardown tasks"
-M hZ:"teardown"
-P hX:hY|hZ|e|e|0
-ST hX|128.81
-M h0:"Process snapshot"
-SPS h0|128.81
-M h1:"System information:\nMemory: Total: 3.8 G, Available: 1.4 G, Used: 64.0 %\nCPUs: 4"
-P h2:e|e|e|e|0
-L I|h1|h2|0|129.25
-M h3:"Subprocess: chrome (pid: 53347, status: sleeping)\nCommand Line: /opt/google/chrome/chrome --type=gpu-process --no-sandbox --disable-dev-shm-usage --log-level=0 --crashpad-handler-pid=53311 --enable-crash-reporter=,unknown --user-data-dir=/tmp/.org.chromium.Chromium.NOq6zF --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --log-level=0 --shared-files --field-trial-handle=0,i,11200456082594823540,9473698398554678025,262144\nStarted: 01:20:48\nParent pid: 53318\nResident Set Size: 163.6 M\nVirtual Memory Size: 32.6 G"
-L I|h3|h2|0|129.289
-M h4:"OutputToPortThread|Thread ID: 123796641175104 (daemon)"
-STD h4|129.289
-M h5:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/threading.py"
-M h6:"_bootstrap"
-M h7:"self._bootstrap_inner()"
-TBE h5|973|h6|h7
-M h8:"Thread"
-M h9:"<Thread(OutputToPortThread, started daemon 123796641175104)>"
-TBV aY|h8|h9
-M ia:"_bootstrap_inner"
-M ib:"self.run()"
-TBE h5|1016|ia|ib
-TBV aY|h8|h9
-M ic:"self._target(*self._args, **self._kwargs)"
-TBE h5|953|aW|ic
-TBV aY|h8|h9
-M id:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_log_output_setup.py"
-M ie:"write_in_thread"
-M if:"msg = q.get()"
-TBE id|73|ie|if
-M ig:"msg"
-M ih:"'ST hX|128.788\\n'"
-TBV ig|3|ih
-M ii:"client_socket"
-M ij:"socket"
-M ik:"<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43066), raddr=('127.0.0.1', 37217)>"
-TBV ii|ij|ik
-M il:"log"
-M im:"module"
-M in:"<module 'robocorp.log' from '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/__init__.py'>"
-TBV il|im|in
-M io:"port_in_env"
-M ip:"'37217'"
-TBV io|3|ip
-M iq:"q"
-M ir:"Queue"
-M is:"<queue.Queue object at 0x7097a7e8ce80>"
-TBV iq|ir|is
-M it:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/queue.py"
-M iu:"get"
-M iv:"self.not_empty.wait()"
-TBE it|171|iu|iv
-TBV aY|ir|is
-M iw:"block"
-TBV iw|an|cf
+M fd:"<re.Match object; span=(0, 11), match='4 years ago'>"
+AS dv|dw|dx|fd|33.024
+SE dz|dB|33.024
+EA dw|dx|fd
+SE dC|dB|33.024
+M fe:"datetime.datetime(2020, 5, 21, 2, 6, 23, 786985)"
+AS dE|dq|dn|fe|33.024
+EE dB|j|33.024
+R dG|an|ao|33.024
+EE dB|j|33.025
+EE t|j|33.025
+EE R|j|33.025
+EE O|j|33.025
+M fg:"save_to_excel"
+M fh:"src.utils"
+M fi:"/home/lloyd/myProjects/news-bot/src/utils.py"
+P ff:fg|fh|fi|e|39
+SE ff|t|33.025
+M fj:"data"
+EA fj|cp|cq
+P fk:fg|fh|fi|e|51
+M fl:"news_df"
+M fm:"DataFrame"
+M fn:"Empty DataFrame\nColumns: []\nIndex: []"
+AS fk|fl|fm|fn|33.031
+P fo:fg|fh|fi|e|53
+M fp:"'2024-05-20_02-06-23'"
+AS fo|dm|3|fp|33.031
+P fq:fg|fh|fi|e|54
+M fr:"excel_file_path"
+M fs:"'output/news_data_2024-05-20_02-06-23.xlsx'"
+AS fq|fr|3|fs|33.031
+M ft:"INFO:root:Data saved to Excel successfully at output/news_data_2024-05-20_02-06-23.xlsx\n"
+C h|ft|34.508
+P fu:fg|fh|fi|e|59
+R fu|3|fs|34.509
+EE t|j|34.509
+P fv:ck|w|x|e|119
+R fv|cp|cq|34.509
+EE t|j|34.509
+EE R|j|34.509
+M fw:"INFO:robocorp.workitems._adapters._file:Releasing item '0' with COMPLETED state and exception: None\n"
+C h|fw|34.509
+EE O|j|34.51
+EE t|j|34.51
+C r|l|34.51
+M fx:" status: "
+C f|fx|34.51
+M fy:"PASS\n"
+C f|fy|34.51
+M fz:"================================================================================\n"
+C f|fz|34.511
+ET j|e|34.511
+M fB:"Teardown tasks"
+M fC:"teardown"
+P fA:fB|fC|e|e|0
+ST fA|34.511
+M fD:"Process snapshot"
+SPS fD|34.512
+M fE:"System information:\nMemory: Total: 3.8 G, Available: 1.1 G, Used: 71.8 %\nCPUs: 4"
+P fF:e|e|e|e|0
+L I|fE|fF|0|34.815
+M fG:"Subprocess: chrome (pid: 60996, status: sleeping)\nCommand Line: /opt/google/chrome/chrome --type=gpu-process --no-sandbox --disable-dev-shm-usage --log-level=0 --crashpad-handler-pid=60955 --enable-crash-reporter=,unknown --user-data-dir=/tmp/.org.chromium.Chromium.lI7YHH --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --log-level=0 --shared-files --field-trial-handle=0,i,15864866422820486530,5624474982692322125,262144\nStarted: 02:05:59\nParent pid: 60962\nResident Set Size: 166.2 M\nVirtual Memory Size: 32.6 G"
+L I|fG|fF|0|34.839
+M fH:"OutputToPortThread|Thread ID: 137095720289856 (daemon)"
+STD fH|34.839
+M fI:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/threading.py"
+M fJ:"_bootstrap"
+M fK:"self._bootstrap_inner()"
+TBE fI|973|fJ|fK
+M fL:"Thread"
+M fM:"<Thread(OutputToPortThread, started daemon 137095720289856)>"
+TBV aY|fL|fM
+M fN:"_bootstrap_inner"
+M fO:"self.run()"
+TBE fI|1016|fN|fO
+TBV aY|fL|fM
+M fP:"self._target(*self._args, **self._kwargs)"
+TBE fI|953|aW|fP
+TBV aY|fL|fM
+M fQ:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_log_output_setup.py"
+M fR:"write_in_thread"
+M fS:"msg = q.get()"
+TBE fQ|73|fR|fS
+M fT:"msg"
+M fU:"'ST fA|34.508\\n'"
+TBV fT|3|fU
+M fV:"client_socket"
+M fW:"socket"
+M fX:"<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35834), raddr=('127.0.0.1', 37217)>"
+TBV fV|fW|fX
+M fY:"log"
+M fZ:"module"
+M f0:"<module 'robocorp.log' from '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/__init__.py'>"
+TBV fY|fZ|f0
+M f1:"port_in_env"
+M f2:"'37217'"
+TBV f1|3|f2
+M f3:"q"
+M f4:"Queue"
+M f5:"<queue.Queue object at 0x7cb0169d34c0>"
+TBV f3|f4|f5
+M f6:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/queue.py"
+M f7:"get"
+M f8:"self.not_empty.wait()"
+TBE f6|171|f7|f8
+TBV aY|f4|f5
+M f9:"block"
+TBV f9|an|cf
 TBV aR|at|au
-M ix:"wait"
-M iy:"waiter.acquire()"
-TBE h5|320|ix|iy
-M iz:"Condition"
-M iA:"<Condition(<unlocked _thread.lock object at 0x7097a70e0680>, 1)>"
-TBV aY|iz|iA
+M ga:"wait"
+M gb:"waiter.acquire()"
+TBE fI|320|ga|gb
+M gc:"Condition"
+M gd:"<Condition(<unlocked _thread.lock object at 0x7cb015f14a80>, 1)>"
+TBV aY|gc|gd
 TBV aR|at|au
-M iB:"waiter"
-M iC:"lock"
-M iD:"<locked _thread.lock object at 0x7097831fcd80>"
-TBV iB|iC|iD
-M iE:"saved_state"
-TBV iE|at|au
-M iF:"gotit"
-TBV iF|an|ao
-ETD 129.311
-M iG:"MainThread|Thread ID: 123796665435968 (non daemon)"
-STD iG|129.311
-M iH:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/__init__.py"
-M iI:"process_snapshot"
-M iJ:"robo_logger.process_snapshot()"
-TBE iH|270|iI|iJ
-M iK:"logger_instances"
-M iL:"{<robocorp.log._robo_logger._RoboLogger object at 0x7097a7d89030>: 1, <robocorp.log._robo_logger._RoboLogger object at 0x7097a7e8d330>: 1}"
-TBV iK|G|iL
-M iM:"robo_logger"
-M iN:"_RoboLogger"
-M iO:"<robocorp.log._robo_logger._RoboLogger object at 0x7097a7d89030>"
-TBV iM|iN|iO
-M iP:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_logger.py"
-M iQ:"new_func"
-M iR:"return func(self, *args, **kwargs)"
-TBE iP|20|iQ|iR
-TBV aY|iN|iO
+M ge:"waiter"
+M gf:"lock"
+M gg:"<locked _thread.lock object at 0x7cb014c96e80>"
+TBV ge|gf|gg
+M gh:"saved_state"
+TBV gh|at|au
+M gi:"gotit"
+TBV gi|an|ao
+ETD 34.841
+M gj:"MainThread|Thread ID: 137095744550720 (non daemon)"
+STD gj|34.841
+M gk:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/__init__.py"
+M gl:"process_snapshot"
+M gm:"robo_logger.process_snapshot()"
+TBE gk|270|gl|gm
+M gn:"logger_instances"
+M go:"{<robocorp.log._robo_logger._RoboLogger object at 0x7cb016bae9b0>: 1, <robocorp.log._robo_logger._RoboLogger object at 0x7cb0169d2680>: 1}"
+TBV gn|G|go
+M gp:"robo_logger"
+M gq:"_RoboLogger"
+M gr:"<robocorp.log._robo_logger._RoboLogger object at 0x7cb016bae9b0>"
+TBV gp|gq|gr
+M gs:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_logger.py"
+M gt:"new_func"
+M gu:"return func(self, *args, **kwargs)"
+TBE gs|20|gt|gu
+TBV aY|gq|gr
 TBV C|D|E
 TBV F|G|H
-M iS:"func"
-M iT:"<function _RoboLogger.process_snapshot at 0x7097a70e95a0>"
-TBV iS|bg|iT
-M iU:"return self._robot_output_impl.process_snapshot(hide_vars)"
-TBE iP|416|iI|iU
-TBV aY|iN|iO
-M iV:"hide_vars"
-TBV iV|an|ao
-M iW:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py"
-M iX:"self._dump_threads(hide_vars)"
-TBE iW|748|iI|iX
-TBV iV|an|ao
-TBV il|im|in
-M iY:"entry_id"
-M iZ:"'ps_1'"
-TBV iY|3|iZ
-M i0:"entry_type"
-M i1:"'process_snapshot'"
-TBV i0|3|i1
-M i2:"psutil"
-M i3:"<module 'psutil' from '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/psutil/__init__.py'>"
-TBV i2|im|i3
-M i4:"AccessDenied"
-M i5:"type"
-M i6:"<class 'psutil.AccessDenied'>"
-TBV i4|i5|i6
-M i7:"NoSuchProcess"
-M i8:"<class 'psutil.NoSuchProcess'>"
-TBV i7|i5|i8
-M i9:"ZombieProcess"
-M ja:"<class 'psutil.ZombieProcess'>"
-TBV i9|i5|ja
-M jb:"curr_process"
-M jc:"Process"
-M jd:"psutil.Process(pid=53071, name='python3.10', status='running', started='01:20:26')"
-TBV jb|jc|jd
-M je:"log_info"
-M jf:"<function _RoboOutputImpl.process_snapshot.<locals>.log_info at 0x709782cbb370>"
-TBV je|bg|jf
-M jg:"memory_info"
-M jh:"'Total: 3.8 G, Available: 1.4 G, Used: 64.0 %'"
-TBV jg|3|jh
-M ji:"child_i"
-M jj:"45"
-TBV ji|7|jj
-M jk:"child"
-M jl:"psutil.Process(pid=53347, name='chrome', status='sleeping', started='01:20:48')"
-TBV jk|jc|jl
-M jm:"'chrome'"
-TBV c2|3|jm
-M jn:"status"
-M jo:"'sleeping'"
-TBV jn|3|jo
-M jp:"create_time"
-M jq:"'01:20:48'"
-TBV jp|3|jq
-M jr:"ppid"
-M js:"'53318'"
-TBV jr|3|js
-M jt:"cmdline"
-M ju:"'/opt/google/chrome/chrome --type=gpu-process --no-sandbox --disable-dev-shm-usage --log-level=0 --crashpad-handler-pid=53311 --enable-crash-reporter=,unknown --user-data-dir=/tmp/.org.chromium.Chromium.NOq6zF --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --log-level=0 --shared-files --field-trial-handle=0,i,11200456082594823540,9473698398554678025,262144'"
-TBV jt|3|ju
-M jv:"rss"
-M jw:"'163.6 M'"
-TBV jv|3|jw
-M jx:"vms"
-M jy:"'32.6 G'"
-TBV jx|3|jy
-M jz:"proc_memory_info"
-M jA:"pmem"
-M jB:"pmem(rss=171560960, vms=34950475776, shared=117780480, text=173834240, lib=0, data=132939776, dirty=0)"
-TBV jz|jA|jB
-M jC:"message"
-M jD:"'Subprocess: chrome (pid: 53347, status: sleeping)\\nCommand Line: /opt/google/chrome/chrome --type=gpu-process --no-sandbox --disable-dev-shm-usage --log-level=0 --crashpad-handler-pid=53311 --enable-crash-reporter=,unknown --user-data-dir=/tmp/.org.chromium.Chromium.NOq6zF --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --log-level=0 --shared-files --field-trial-handle=0,i,11200456082594823540,9473698398554678025,262144\\nStarted: 01:20:48\\nParent pid: 53318\\nResident Set Size: 163.6 M\\nVirtual Memory Size: 32.6 G'"
-TBV jC|3|jD
-M jE:"_RoboOutputImpl"
-M jF:"<robocorp.log._robo_output_impl._RoboOutputImpl object at 0x7097a7f05120>"
-TBV aY|jE|jF
-M jG:"_dump_threads"
-M jH:"stack.append((f, f.f_lineno))"
-TBE iW|769|jG|jH
-TBV aY|jE|jF
-TBV iV|an|ao
-M jI:"thread_id"
-M jJ:"123796665435968"
-TBV jI|7|jJ
-M jK:"frame"
-M jL:"<frame at 0x7097817a9040, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py', line 773, code _dump_threads>"
-TBV jK|jK|jL
-M jM:"thread"
-M jN:"_MainThread"
-M jO:"<_MainThread(MainThread, started 123796665435968)>"
-TBV jM|jN|jO
-M jP:"'MainThread|Thread ID: 123796665435968 (non daemon)'"
-TBV cZ|3|jP
-M jQ:"f"
-M jR:"<frame at 0x58349270bb30, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_commands.py', line 480, code run>"
-TBV jQ|jK|jR
-M jS:"stack"
-M jT:"[(<frame at 0x70977c000bb0, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/__init__.py', line 270, code process_snapshot>, 270), (<frame at 0x7097a73f8040, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_logger.py', line 20, code new_func>, 20), (<frame at 0x709781779700, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_logger.py', line 416, code process_snapshot>, 416), (<frame at 0x583493730f60, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py', line 748, code process_snapshot>, 748), (<frame at 0x7097817a9040, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py', line 773, code _dump_threads>, 769)]"
-TBV jS|cp|jT
-ETD 129.315
-EPS 129.315
-ET j|e|129.357
-ER j|129.357
+M gv:"func"
+M gw:"<function _RoboLogger.process_snapshot at 0x7cb015f1d5a0>"
+TBV gv|bg|gw
+M gx:"return self._robot_output_impl.process_snapshot(hide_vars)"
+TBE gs|416|gl|gx
+TBV aY|gq|gr
+M gy:"hide_vars"
+TBV gy|an|ao
+M gz:"/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py"
+M gA:"self._dump_threads(hide_vars)"
+TBE gz|748|gl|gA
+TBV gy|an|ao
+TBV fY|fZ|f0
+M gB:"entry_id"
+M gC:"'ps_1'"
+TBV gB|3|gC
+M gD:"entry_type"
+M gE:"'process_snapshot'"
+TBV gD|3|gE
+M gF:"psutil"
+M gG:"<module 'psutil' from '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/psutil/__init__.py'>"
+TBV gF|fZ|gG
+M gH:"AccessDenied"
+M gI:"type"
+M gJ:"<class 'psutil.AccessDenied'>"
+TBV gH|gI|gJ
+M gK:"NoSuchProcess"
+M gL:"<class 'psutil.NoSuchProcess'>"
+TBV gK|gI|gL
+M gM:"ZombieProcess"
+M gN:"<class 'psutil.ZombieProcess'>"
+TBV gM|gI|gN
+M gO:"curr_process"
+M gP:"Process"
+M gQ:"psutil.Process(pid=60822, name='python3.10', status='running', started='02:05:49')"
+TBV gO|gP|gQ
+M gR:"log_info"
+M gS:"<function _RoboOutputImpl.process_snapshot.<locals>.log_info at 0x7caff1455bd0>"
+TBV gR|bg|gS
+M gT:"memory_info"
+M gU:"'Total: 3.8 G, Available: 1.1 G, Used: 71.8 %'"
+TBV gT|3|gU
+M gV:"child_i"
+M gW:"15"
+TBV gV|7|gW
+M gX:"child"
+M gY:"psutil.Process(pid=60996, name='chrome', status='sleeping', started='02:05:59')"
+TBV gX|gP|gY
+M gZ:"'chrome'"
+TBV c2|3|gZ
+M g0:"status"
+M g1:"'sleeping'"
+TBV g0|3|g1
+M g2:"create_time"
+M g3:"'02:05:59'"
+TBV g2|3|g3
+M g4:"ppid"
+M g5:"'60962'"
+TBV g4|3|g5
+M g6:"cmdline"
+M g7:"'/opt/google/chrome/chrome --type=gpu-process --no-sandbox --disable-dev-shm-usage --log-level=0 --crashpad-handler-pid=60955 --enable-crash-reporter=,unknown --user-data-dir=/tmp/.org.chromium.Chromium.lI7YHH --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --log-level=0 --shared-files --field-trial-handle=0,i,15864866422820486530,5624474982692322125,262144'"
+TBV g6|3|g7
+M g8:"rss"
+M g9:"'166.2 M'"
+TBV g8|3|g9
+M ha:"vms"
+M hb:"'32.6 G'"
+TBV ha|3|hb
+M hc:"proc_memory_info"
+M hd:"pmem"
+M he:"pmem(rss=174227456, vms=34952966144, shared=120856576, text=173834240, lib=0, data=132517888, dirty=0)"
+TBV hc|hd|he
+M hf:"message"
+M hg:"'Subprocess: chrome (pid: 60996, status: sleeping)\\nCommand Line: /opt/google/chrome/chrome --type=gpu-process --no-sandbox --disable-dev-shm-usage --log-level=0 --crashpad-handler-pid=60955 --enable-crash-reporter=,unknown --user-data-dir=/tmp/.org.chromium.Chromium.lI7YHH --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --log-level=0 --shared-files --field-trial-handle=0,i,15864866422820486530,5624474982692322125,262144\\nStarted: 02:05:59\\nParent pid: 60962\\nResident Set Size: 166.2 M\\nVirtual Memory Size: 32.6 G'"
+TBV hf|3|hg
+M hh:"_RoboOutputImpl"
+M hi:"<robocorp.log._robo_output_impl._RoboOutputImpl object at 0x7cb01614ed70>"
+TBV aY|hh|hi
+M hj:"_dump_threads"
+M hk:"stack.append((f, f.f_lineno))"
+TBE gz|769|hj|hk
+TBV aY|hh|hi
+TBV gy|an|ao
+M hl:"thread_id"
+M hm:"137095744550720"
+TBV hl|7|hm
+M hn:"frame"
+M ho:"<frame at 0x7caff072b040, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py', line 773, code _dump_threads>"
+TBV hn|hn|ho
+M hp:"thread"
+M hq:"_MainThread"
+M hr:"<_MainThread(MainThread, started 137095744550720)>"
+TBV hp|hq|hr
+M hs:"'MainThread|Thread ID: 137095744550720 (non daemon)'"
+TBV cZ|3|hs
+M ht:"f"
+M hu:"<frame at 0x5d8538682b30, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/tasks/_commands.py', line 480, code run>"
+TBV ht|hn|hu
+M hv:"stack"
+M hw:"[(<frame at 0x7caff07660e0, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/__init__.py', line 270, code process_snapshot>, 270), (<frame at 0x7cb0161ec040, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_logger.py', line 20, code new_func>, 20), (<frame at 0x7caff070a400, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_logger.py', line 416, code process_snapshot>, 416), (<frame at 0x5d8539402a70, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py', line 748, code process_snapshot>, 748), (<frame at 0x7caff072b040, file '/home/lloyd/.robocorp/holotree/dc4d756_b1f3c24_691db988/lib/python3.10/site-packages/robocorp/log/_robo_output_impl.py', line 773, code _dump_threads>, 769)]"
+TBV hv|cp|hw
+ETD 34.846
+EPS 34.846
+ET j|e|34.875
+ER j|34.875
